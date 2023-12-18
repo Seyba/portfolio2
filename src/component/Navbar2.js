@@ -11,7 +11,9 @@ export const Navbar2 = () => {
                     <div className={`line-one ${menuOpen ? 'one-open': ''}`}></div>
                     <div className={`line-two ${menuOpen ? 'two-open': ''}`}></div>
                 </div>
-                <div>SEYBA</div>
+                <div>
+                    <h3 className="heading text-slate-50">SEYBA</h3>
+                </div>
                 <div>
                     <div className="flex content-between items-center">
                         <div>
