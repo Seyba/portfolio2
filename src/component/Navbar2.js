@@ -1,4 +1,5 @@
 import React, { useState} from 'react'
+import { Link } from 'react-router-dom'
 
 export const Navbar2 = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -30,6 +31,23 @@ export const Navbar2 = () => {
                 </div>
             </div>
         </nav>
+        <div className="menu-wrapper">
+            <ul>
+                <li>
+                    <Link className="text-slate-50" to="/">Home</Link>
+                </li>
+                <li>
+                    <Link className="text-slate-50" to="/about">About</Link>
+                </li>
+                <li>
+                    <Link className="text-slate-50" to="/blog">Blog</Link>
+                </li>
+                <li>
+                    <Link className="text-slate-50" to="/contact">Contact</Link>
+                </li>
+            </ul>
+
+        </div>
     </header>
   )
 }
