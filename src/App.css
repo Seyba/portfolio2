@@ -3,6 +3,84 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-131921: #131921; 
+  --color-3b4149: #3b4149;
+}
+.navigation {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger-menu {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 50px;
+  height: 55px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0 0 0;
+  cursor: pointer;
+}
+
+.line-one {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsla(0, 0%, 100%, 0.4);
+  transform: translate3d(0px, -6px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: 0.2s ease-in-out;
+}
+.line-two {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsla(0, 0%, 100%, 0.4);
+  transform: translate3d(0px, 6px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: 0.2s ease-in-out;
+}
+.one-open {
+  transition: 0.2s ease-in-out;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+.two-open{
+  transition: 0.2s ease-in-out;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+.cart-wrapper {
+  position: relative;
+}
+.cart-count {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 10px;
+  
+}
+
 /* .App {
   text-align: center;
 }
