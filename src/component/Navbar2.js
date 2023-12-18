@@ -4,7 +4,7 @@ export const Navbar2 = () => {
     const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <div>
+    <header>
         <nav>
             <div className="navigation">
                 <div className="burger-menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -30,6 +30,6 @@ export const Navbar2 = () => {
                 </div>
             </div>
         </nav>
-    </div>
+    </header>
   )
 }
