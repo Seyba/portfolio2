@@ -13,6 +13,11 @@
   --color-131921: #131921; 
   --color-3b4149: #3b4149;
 }
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
 header nav {
   background-color: #12141D;
 }
@@ -88,7 +93,8 @@ header nav {
   right: 0%;
   bottom: 0%;
   z-index: 998;
-  display: flex;
+  display: none;
+  opacity: 0;
   padding-right: 5%;
   padding-left: 5%;
   -webkit-box-pack: center;
@@ -105,6 +111,11 @@ header nav {
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   background-color: #10151b;
+}
+.menu-wrapper-open {
+  display: flex;
+  opacity: 1;
+  transition: 0.2s ease-out;
 }
 .menu-wrapper li {
   list-style-type: none;
