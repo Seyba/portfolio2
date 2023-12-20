@@ -75,32 +75,32 @@ export const Navbar2 = (props) => {
                             <Dialog.Panel className="relative transform overflow-hidden rounded-sm bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
                                 <div className="bg-slate-950 border-b border-gray-800 flex p-4 justify-between ">
                                     <div>
-                                        <h3 className="text-slate-50">Your Cart</h3>
+                                        <h3 className="text-slate-50 text-lg font-bold">Your Cart</h3>
                                     </div>
                                     <div className="text-slate-50">
                                         <Link onClick={toggleCart}>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
                                         </Link>
                                         
                                     </div>
                                 </div>
-                                <div className="bg-slate-950 px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                                <div className="bg-slate-950 py-8 px-4">
+                                    <div className="py-16">
+                                        <div className="flex justify-center">
+                                            <p className="text-md font-bold text-gray-400">
+                                                 No Items Found.
+                                            </p>
+                                        </div>
+                                        <div className="flex justify-center">
+                                            <Link onClick={toggleCart} className="text-slate-300 mt-4 tex-md font-bold bg-gray-900 hover:bg-gray-800 py-2 px-6 rounded-md">Go To Home</Link>
+                                        </div>
+                                    </div>
                                     
-                                    <p className="text-sm text-gray-500">
-                                        Not Items Found
-                                    </p>
+                                    
                                 </div>
                                 
-                                
-                                <div className="bg-slate-950 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-                                
-                                
-                                    <button className="bg-slate-800 text-slate-50" onClick={toggleCart}>
-                                        Close
-                                    </button>
-                                </div>
                             </Dialog.Panel>
                         </Transition.Child>
                     </div>
