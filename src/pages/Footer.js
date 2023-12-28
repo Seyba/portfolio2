@@ -6,12 +6,12 @@ export const Footer = () => {
     <footer className="p-8">
         <div className="">
             <div className="md:grid grid-cols-2 gap-32">
-                <div className="lg:mx-16">
+                <div className="lg:mx-20">
                     <div className="py-4">
                         <h4 className="font-semibold text-3xl">SEYBA</h4>
                     </div>
                     <div>
-                        <p className="text-lg leading-8 py-4">I'am an award UI/UX designer, web developer and product manager based in New York, USA.</p>
+                        <p className="text-lg leading-8 py-4">I am an award UI/UX designer, web developer and product manager based in New York, USA.</p>
                     </div>
                     <div className="footer__links py-4">
                         <ul className="flex">
@@ -19,20 +19,20 @@ export const Footer = () => {
                                 <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/">About</Link>
+                                <Link to="/about">About</Link>
                             </li>
                             <li>
-                                <Link to="/">Blog</Link>
+                                <Link to="/blog">Blog</Link>
                             </li>
                             <li>
-                                <Link to="/">Home</Link>
+                                <Link to="/projects">Projects</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div className="">
+                <div className="lg:mx-20">
                     <div className="md:grid py-4 justify-items-end">
-                        <div className="footer__social-links py-4 flex">
+                        <div className="footer__social-links flex">
                             <div className="">
                                 <Link className="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
@@ -77,7 +77,7 @@ export const Footer = () => {
                     
                 </div>
             </div>
-            <div className="footer__author-link py-4">
+            <div className="lg:mx-20 footer__author-link py-4">
                 <p>
                     &copy; {new Date().getFullYear()}; by <Link to="https://github.com/Seyba">SEYBA</Link>
                 </p>
