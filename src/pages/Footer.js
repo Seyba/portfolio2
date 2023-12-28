@@ -79,9 +79,9 @@ export const Footer = () => {
                     
                 </div>
             </div>
-            <div>
+            <div className="footer__author-link py-4">
                 <p>
-                &copy; {new Date().getFullYear()}; Powered by <Link className="text-white" to="https://github.com/Seyba">SEYBA</Link>
+                    &copy; {new Date().getFullYear()}; by <Link to="https://github.com/Seyba">SEYBA</Link>
                 </p>
             </div>
         </div>
