@@ -8,7 +8,7 @@ export const About = () => {
       <div className="flex justify-around mb-4">
         <div>
           <h2 className="text-5xl font-semibold text-center py-2">About Seyba</h2>
-          <p className="text-gray-300 text-center text-2xl py-2 leading-8 tracking-wider">A creative web developer like no other</p>
+          <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider">A creative web developer like no other</p>
         </div>
       </div>
       <Meta title={"About"}/>

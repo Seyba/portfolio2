@@ -110,19 +110,19 @@ export const Navbar2 = (props) => {
         <div className={`menu-wrapper ${menuWrapperOpen? "menu-wrapper-open" : "" }`}>
             <ul>
                 <li>
-                    <Link className="text-slate-50" to="/">Home</Link>
+                    <Link onClick={toggleMenu} className="text-slate-50" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link className="text-slate-50" to="/about">About</Link>
+                    <Link onClick={toggleMenu} className="text-slate-50" to="/about">About</Link>
                 </li>
                 <li>
-                    <Link className="text-slate-50" to="/blog">Blog</Link>
+                    <Link onClick={toggleMenu} className="text-slate-50" to="/blog">Blog</Link>
                 </li>
                 <li>
-                    <Link className="text-slate-50" to="/contact">Contact</Link>
+                    <Link onClick={toggleMenu} className="text-slate-50" to="/contact">Contact</Link>
                 </li>
                 <li>
-                    <Link className="text-slate-50" to="/projects">Projects</Link>
+                    <Link onClick={toggleMenu} className="text-slate-50" to="/projects">Projects</Link>
                 </li>
             </ul>
 
