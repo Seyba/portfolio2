@@ -121,6 +121,9 @@ export const Navbar2 = (props) => {
                 <li>
                     <Link className="text-slate-50" to="/contact">Contact</Link>
                 </li>
+                <li>
+                    <Link className="text-slate-50" to="/projects">Projects</Link>
+                </li>
             </ul>
 
         </div>

@@ -6,7 +6,7 @@ import { About } from './pages/About'
 import { Blog } from './pages/Blog'
 import { Contact } from './pages/Contact';
 import { Footer } from './pages/Footer';
-import Projects from './pages/Projects';
+import {Projects} from './pages/Projects';
 
 function App() {
   return (
