@@ -142,7 +142,19 @@ header nav {
   position: relative;
   min-height: auto;
   padding-top: 70px;
-  padding-bottom: 110px;
+  padding-bottom: 150px;
+}
+.hero-bg-img {
+  position: absolute;
+  left: -17%;
+  top: -14%;
+  right: auto;
+  bottom: auto;
+  width: 400px;
+  max-width: 479px;
+}
+.hero-text {
+  z-index: 4;
 }
 .breadcrumb {
   width: 150px;
