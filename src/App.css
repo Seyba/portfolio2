@@ -137,6 +137,13 @@ header nav {
   line-height: 40px;
   transition: all 300ms ease;
 }
+.hero {
+  background-color: #20222e;
+  position: relative;
+  min-height: auto;
+  padding-top: 70px;
+  padding-bottom: 110px;
+}
 .breadcrumb {
   width: 150px;
   height: 50px;
