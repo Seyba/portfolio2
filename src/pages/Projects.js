@@ -5,8 +5,8 @@ import { BreadCrumb } from '../component/BreadCrumb'
 export const Projects = () => {
   return (
     <>
-        <div className="hero">    
-            <div className="hero-text flex justify-around mb-4">
+        <div className="">    
+            <div className="hero-text-wrapper ">
                 <div>
                     <h2 className="text-5xl font-semibold text-center py-2">Projects</h2>
                     <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider">I design awesome things.</p>
