@@ -9,13 +9,13 @@ export const Projects = () => {
             
             <div className="banner-wrapper">
                 <div className="banner">
-                    <div>
+                    <div className="py-2">
                         <h2 className="text-5xl font-semibold text-center py-2">Projects</h2>
                         <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider">I design awesome things.</p>
                     </div>
                     <Meta title={"Projects"}/>
                     <BreadCrumb title="Projects"/>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center py-2">
                         <div>
                             <svg width="50px" height="100px" viewBox="0 0 247 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" style={{fillRule:"evenodd" ,clipRule:"evenodd", strokeLinecap:"round" ,strokeLinejoin:'round', strokeMiterlimit:'1.5'}}>
                                 <path  className="wheel" d="M123.359,79.775l0,72.843" style={{fill:"none" ,stroke:"#fff" ,stokeWidth:"10px"}} />
