@@ -137,32 +137,6 @@ header nav {
   line-height: 40px;
   transition: all 300ms ease;
 }
-.hero{
-  position: relative;
-  display: flex;
-  max-width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  padding: 115px 5% 160px;
-  justify-content: center;  
-}
-
-.hero .sub {
-  background-color: #20222e;
-  position: relative;
-  min-height: auto;
-  padding-top: 70px;
-  padding-bottom: 150px;
-}
-.hero-bg-img {
-  position: absolute;
-  left: -17%;
-  top: -14%;
-  right: auto;
-  bottom: auto;
-  width: 400px;
-}
 .hero-text-wrapper {
   max-width: 1200px;
   margin-right: auto;
@@ -177,6 +151,18 @@ header nav {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+.banner-wrapper{
+  background-color: #20222e;
+}
+.banner {
+  background-image: url('../public/images/bg-pic.png');
+  background-repeat: no-repeat;
+  background-position-x: -300px;
+  background-position-y: -80px;
+  background-size: 500px 500px;
+  padding: 100px 0;
+  
 }
 .breadcrumb {
   width: 150px;
