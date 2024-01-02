@@ -171,6 +171,43 @@ header nav {
   background-color: #2a2e3c;
   padding: 0 20px;
 }
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+  20% {
+		transform: translateY(20px);
+
+  }
+	30% {
+		transform: translateY(30px);
+	}
+  40% {
+		transform: translateY(40px);
+	}
+  50% {
+		transform: translateY(50px);
+	}
+  60% {
+		transform: translateY(60px);
+	}
+  70% {
+		transform: translateY(70px);
+	}
+  80% {
+		transform: translateY(80px);
+	}
+  90% {
+		transform: translateY(90px);
+	}
+  100% {
+		transform: translateY(100px);
+	}
+}
+
+svg .wheel {
+	animation: scroll ease 2s infinite;
+}
 /**? ==================== Footer Section =================================== */
 .footer-wrapper{
   padding: 0 100px;
