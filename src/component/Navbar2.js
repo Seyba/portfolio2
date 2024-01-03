@@ -20,7 +20,7 @@ export const Navbar2 = (props) => {
     }
   return (
     <>
-        <header>
+        <header className="">
             <nav>
                 <div className="navigation">
                     <div className="burger-menu" onClick={toggleMenu}>

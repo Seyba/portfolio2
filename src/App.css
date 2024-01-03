@@ -206,7 +206,7 @@ header nav {
 }
 
 svg .wheel {
-	animation: scroll ease 2s infinite;
+	animation: scroll ease 1.5s infinite;
 }
 /**? ==================== Footer Section =================================== */
 .footer-wrapper{
