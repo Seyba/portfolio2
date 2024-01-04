@@ -246,13 +246,14 @@ svg .wheel {
   overflow: hidden;
   font-size: 40px;
   text-align: center;
+  
 }
 .scroller > span {
   position: absolute;
   top: 0;
   animation: slide 6s infinite;
-  font-weight: bold;
   background-color: var(--color-131921);
+  margin-left: 10px;
 }
 /**? ==================== Home Page Section =================================== */
 

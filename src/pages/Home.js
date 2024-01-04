@@ -3,6 +3,17 @@ import React, {useState } from 'react'
 export const Home = () => {
   const [texts, setTexts] = useState(['innovative', 'talented','powerful','creative'])
 
+  const getText = () => {
+    const texts = ['innovative', 'talented','powerful','creative']
+    const idx = Math.floor(Math.random() * texts.length)
+    // const rightText = () => {
+    //   return texts[idx]
+    // }
+    return texts[idx]
+    setInterval(() => texts[idx],4000)
+  }
+  getText()
+  
   return (
     <div>
       <div className="home__hero flex justify-around">
@@ -15,9 +26,12 @@ export const Home = () => {
                 <h1>{texts[1]}</h1>
                 <h1>{texts[2]}</h1>
                 <h1>{texts[3]}</h1>
-              </span> 
-            digital studio.</h1>
-            
+              </span> </h1>
+            <h1>digital studio.</h1>
+            <div>
+              We are a <span className="text-slider">{texts[0]}</span> digital studio.
+              <p className="text-3xl text-blue-200"></p>
+            </div>
           </div>
           {/* <div className="scroller">
             <span>
