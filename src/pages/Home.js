@@ -49,6 +49,9 @@ export const Home = () => {
         <div className="flex justify-center">
           <h1 className="display-1 for-rotator">Digital Studio.</h1>
         </div>
+        <div className="mt-6">
+          <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wide">I love user-focused design, thoughtfully crafted brands</h2>
+        </div>
       </div>
     </div>
   )
