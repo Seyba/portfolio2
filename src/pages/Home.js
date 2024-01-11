@@ -35,16 +35,20 @@ export const Home = () => {
           <h4 className="text-xl font-semibold text-center py-4">Digital experience, made better</h4>
         </div>
       </div>
-      <div className="flex justify-center">
-        <div className="content-wrap">
-          <h1 className="display-1 for-rotator">We're a</h1>
-          <div className="words-wrap scrollerY">
-            {
-              (msgIdx === 4) ? <h1 className="display-1 ">powerful</h1> : <h1 className="display-1">{msg[msgIdx]}</h1>
-            }
+      <div >
+        <div className="flex justify-center">
+          <div className="content-wrap">
+            <h1 className="display-1 for-rotator">We're a</h1>
+            <div className="words-wrap ">
+              {
+                (msgIdx === 4) ? <h1 className="display-1 ">powerful</h1> : <h1 className="display-1">{msg[msgIdx]}</h1>
+              }
+            </div>
           </div>
         </div>
-        <h1 className="display-1 for-rotator">Digital Studio.</h1>
+        <div className="flex justify-center">
+          <h1 className="display-1 for-rotator">Digital Studio.</h1>
+        </div>
       </div>
     </div>
   )
