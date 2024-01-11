@@ -4,14 +4,6 @@ export const Home = () => {
   const [rightText, setRightText] = useState('')
   const [msgIdx, setMsgIdx] = useState(0)
 
-
-  const getText = () => {
-    const texts = ['innovative', 'talented','powerful','creative']
-    const idx = Math.floor(Math.random() * texts.length)
-    return idx
-    
-  }
-
   const text = ['innovative', 'talented','powerful','creative']
   const msg = ['intelligent', 'skilled', 'dependable','collaborative']
 
@@ -41,18 +33,6 @@ export const Home = () => {
       <div className="home__hero flex justify-around">
         <div>
           <h4 className="text-xl font-semibold text-center py-4">Digital experience, made better</h4>
-          
-          {/* <div className="scroller">
-            <span>
-              {texts[0]}
-              <br/>
-              {texts[1]}
-              <br />
-              {texts[2]}
-              <br/>
-              {texts[3]}
-            </span>
-          </div> */}
         </div>
       </div>
       <div className="flex justify-center">
