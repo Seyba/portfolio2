@@ -174,6 +174,7 @@ header nav {
 @keyframes scroll {
 	0% {
 		transform: translateY(0);
+    
 	}
   20% {
 		transform: translateY(20px);
@@ -206,7 +207,7 @@ header nav {
 }
 
 svg .wheel {
-	animation: scroll ease 1.5s infinite;
+	animation: scroll ease 4.5s infinite;
 }
 
 /**? ==================== Home Page Section =================================== */
@@ -224,6 +225,65 @@ svg .wheel {
     top: -3.6em;
   }
 }
+@keyframes scrollY{
+  0%{
+    transform: translate3d(0px, -30px, 0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 0;
+    will-change: transform;
+  }
+  
+  100%{
+    transform: translate3d(0px, 30px, 0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 1;
+    will-change: transform;
+  }
+}
+@keyframes smoothOut{
+  0%{
+    opacity: 0;
+    transform: translate3d(0px, -10px, 0px);
+  }
+  
+  100%{
+    opacity: 1;
+    transform: translate3d(0px, 10px, 0px)
+  }
+}
+
+.scroller {
+  height: 1.2em;
+  line-height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  font-size: 40px;
+  text-align: left;
+  
+  
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slide 8s infinite;
+  background-color: var(--color-131921);
+  margin-left: 10px;
+}
+.scrollerY > h1 {
+  position: absolute;
+  animation: scrollY 4s infinite;
+  transition: 4s ease-out;
+}
+.smoothText {
+  animation: smoothOut 4s;
+  transition: 4s ease-out;
+}
+.content-wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
 .words-wrap {
   position: relative;
   display: flex;
@@ -239,26 +299,23 @@ svg .wheel {
   font-size: 80px;
   line-height: 80px;
 }
-.scroller {
-  height: 1.2em;
-  line-height: 1.2em;
-  position: relative;
-  overflow: hidden;
-  font-size: 40px;
-  text-align: center;
-  
-}
-.scroller > span {
+.display-1.for-rotator.absolute {
   position: absolute;
-  top: 0;
-  animation: slide 6s infinite;
-  background-color: var(--color-131921);
-  margin-left: 10px;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
 }
-/**? ==================== Home Page Section =================================== */
+.innov-anim {
+  transform: translate3d(0px, -30px, 0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 0;
+}
+
+/**? =============================== Home Page Section =================================== */
 
 
-/**? ==================== Footer Section =================================== */
+/**? ================================= Footer Section =================================== */
 .footer-wrapper{
   padding: 0 100px;
 }
