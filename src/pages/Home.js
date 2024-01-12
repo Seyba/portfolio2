@@ -32,7 +32,7 @@ export const Home = () => {
     <div>
       <div className="home__hero flex justify-around">
         <div>
-          <h4 className="text-xl font-semibold text-center py-4">Digital experience, made better</h4>
+          <h4 className="text-lg font-semibold tracking-wide text-center py-4">Digital experience, made better</h4>
         </div>
       </div>
       <div >
@@ -52,6 +52,15 @@ export const Home = () => {
         <div className="mt-6">
           <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted brands</h2>
         </div>
+      </div>
+      <div className="flex justify-center mt-6">
+        <div>
+          <button className="sBtn">Enquire Now</button>
+        </div>
+        <div>
+          <button className="sBtn">View My Projects</button>
+        </div>
+        
       </div>
       <div className="mt-6">
         <div className="flex justify-center py-2">
