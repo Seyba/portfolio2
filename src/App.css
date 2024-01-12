@@ -207,7 +207,7 @@ header nav {
 }
 
 svg .wheel {
-	animation: scroll ease 4.5s infinite;
+	animation: scroll ease-out 1.5s infinite;
 }
 
 /**? ==================== Home Page Section =================================== */
