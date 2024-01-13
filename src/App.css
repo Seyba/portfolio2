@@ -212,7 +212,7 @@ svg .wheel {
 
 .sBtn {
   background-color: var(--color-20222e);
-  border-radius: 3px;
+  border-radius: 5px;
   color: var(--color-ffffffb1);
   transition: all 200ms ease;
   font-size: 13px;
