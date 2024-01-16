@@ -24,6 +24,13 @@ body {
   --color-20222e: #20222e;
 
 }
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  flex: 1;
+}
+
 header {
   position: sticky;
   top: 0px;
