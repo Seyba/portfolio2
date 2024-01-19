@@ -29,40 +29,42 @@ export const Home = () => {
   })
   return (
     <div>
-      <div className="home__hero flex justify-around">
-        <div>
-          <h4 className="text-lg font-semibold tracking-wide text-center py-4">Digital experience, made better</h4>
+      <div className="hero-wrapper">
+        <div className="flex justify-around">
+          <div>
+            <h4 className="text-lg font-semibold tracking-wide text-center py-4">Digital experience, made better</h4>
+          </div>
         </div>
-      </div>
-      <div >
-        <div className="flex justify-center">
-          <div className="content-wrap">
-            <h1 className="display-1 for-rotator">We're a</h1>
-            <div className="words-wrap ">
-              {
-                (msgIdx === 4) ? <h1 className="display-1 ">powerful</h1> : <h1 className="display-1">{msg[msgIdx]}</h1>
-              }
+      
+        <div >
+          <div className="flex justify-center">
+            <div className="content-wrap">
+              <h1 className="display-1 for-rotator">We're a</h1>
+              <div className="words-wrap ">
+                {
+                  (msgIdx === 4) ? <h1 className="display-1 ">powerful</h1> : <h1 className="display-1">{msg[msgIdx]}</h1>
+                }
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <h1 className="display-1 for-rotator">Digital Studio.</h1>
+          </div>
+          <div className="mt-6">
+            <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted brands</h2>
+          </div>
+        </div>
+        <div className="flex justify-center py-6 mt-6">
+          <div className="flex ">
+            <div className="mr-2">
+              <Link to="/" className="sBtn">Enquire Now</Link>
+            </div>
+            <div className="ml-2">
+              <Link to="/" className="sBtn">View My Projects</Link>
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <h1 className="display-1 for-rotator">Digital Studio.</h1>
-        </div>
-        <div className="mt-6">
-          <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted brands</h2>
-        </div>
       </div>
-      <div className="flex justify-center py-6 mt-6">
-        <div className="flex ">
-          <div className="mr-2">
-            <Link to="/" className="sBtn">Enquire Now</Link>
-          </div>
-          <div className="ml-2">
-            <Link to="/" className="sBtn">View My Projects</Link>
-          </div>
-        </div>
-      </div>
-      
       <div className="mt-6">
         <div className="flex justify-center py-2">
           <div>
@@ -76,7 +78,7 @@ export const Home = () => {
 
       <div className="mt-16">
         <div className="flex justify-center">
-          <div className="grid grid-cols-4 place-items-center gap-2">
+          <div className="grid grid-cols-4 md:grid-cols-2 place-items-center gap-2">
             <div className="px-4">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0,0,256,256">
@@ -241,12 +243,11 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <div className="container">
 
-      <div>
-        <div className="container">
-          One
-        </div>
       </div>
+
+      
     </div>
   )
 }

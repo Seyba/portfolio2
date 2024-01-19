@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 640px) {
+
+}
 *{
   margin: 0;
   padding: 0;
@@ -234,6 +237,9 @@ svg .wheel {
   background-color: #3b4149;
 }
 /**? ==================== Home Page Section =================================== */
+.hero-wrapper {
+
+}
 @keyframes slide {
   0% {
     top: 0;
