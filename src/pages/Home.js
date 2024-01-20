@@ -36,7 +36,7 @@ export const Home = () => {
           </div>
         </div>
       
-        <div >
+        <div className="hidden md:block">
           <div className="flex justify-center">
             <div className="content-wrap">
               <h1 className="display-1 for-rotator">We're a</h1>

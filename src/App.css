@@ -237,7 +237,11 @@ svg .wheel {
   background-color: #3b4149;
 }
 /**? ==================== Home Page Section =================================== */
-.hero-wrapper {
+@media screen and (max-width: 479px){
+  .hero-wrapper {
+    padding-top: 72px;
+    padding-bottom: 133px;
+  }
 
 }
 @keyframes slide {
