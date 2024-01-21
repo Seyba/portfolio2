@@ -29,8 +29,8 @@ export const Home = () => {
   })
   return (
     <div>
-      <div className="">
-        <div className="hidden md:block">
+      <div className="mt-16">
+        <div className="mx-7">
           <div>
             <h4 className="text-lg font-semibold tracking-wide text-center py-4">Digital experience, made better</h4>
           </div>
