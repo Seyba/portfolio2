@@ -348,6 +348,15 @@ svg .wheel {
 
 
 /**? ================================= Footer Section =================================== */
+@media screen and (max-width: 479px){
+  .footer{
+    padding-top: 40px;
+
+  }
+}
+.footer {
+  padding: 70px 5% 20px;
+}
 .footer-wrapper{
   padding: 0 100px;
 }
