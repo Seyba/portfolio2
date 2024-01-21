@@ -3,9 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 640px) {
-
-}
 *{
   margin: 0;
   padding: 0;
@@ -44,9 +41,10 @@ header nav {
 }
 .navigation {
   display: flex;
-  padding: 10px 20px;
+  padding: 10px 0;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .burger-menu {
   position: relative;
@@ -238,6 +236,7 @@ svg .wheel {
 }
 /**? ==================== Home Page Section =================================== */
 @media screen and (max-width: 479px){
+
   .hero-wrapper {
     padding-top: 72px;
     padding-bottom: 133px;

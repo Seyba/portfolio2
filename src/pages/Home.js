@@ -29,8 +29,8 @@ export const Home = () => {
   })
   return (
     <div>
-      <div className="hero-wrapper">
-        <div className="flex justify-around">
+      <div className="">
+        <div className="hidden md:block">
           <div>
             <h4 className="text-lg font-semibold tracking-wide text-center py-4">Digital experience, made better</h4>
           </div>
@@ -54,7 +54,7 @@ export const Home = () => {
             <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted brands</h2>
           </div>
         </div>
-        <div className="flex justify-center py-6 mt-6">
+        <div className="hidden md:flex justify-center py-6 mt-6 ">
           <div className="flex ">
             <div className="mr-2">
               <Link to="/" className="sBtn">Enquire Now</Link>
@@ -65,7 +65,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-6">
+      <div className="hidden md:block mt-6">
         <div className="flex justify-center py-2">
           <div>
             <svg width="50px" height="100px" viewBox="0 0 247 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" style={{fillRule:"evenodd" ,clipRule:"evenodd", strokeLinecap:"round" ,strokeLinejoin:'round', strokeMiterlimit:'1.5'}}>
@@ -77,7 +77,7 @@ export const Home = () => {
       </div>
 
       <div className="mt-16">
-        <div className="flex justify-center">
+        <div className="hidden md:flex justify-center">
           <div className="grid grid-cols-4 md:grid-cols-2 place-items-center gap-2">
             <div className="px-4">
               <div>
@@ -193,7 +193,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div>
+      <div className="hidden md:block">
         <div className="flex justify-center">
           <div className="md:grid grid-cols-3 place-items-center gap-4">
             <div>

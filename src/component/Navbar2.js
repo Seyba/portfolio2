@@ -46,7 +46,6 @@ export const Navbar2 = (props) => {
                     </div>
                 </div>
             </nav>
-            
         </header>
         <Transition.Root show={!open} as={Fragment}>
             <Dialog as="div" className="relative z-10" initialFocus={cancelButtonRef} onClose={setOpen}>
