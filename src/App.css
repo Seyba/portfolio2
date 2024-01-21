@@ -35,6 +35,7 @@ header {
   position: sticky;
   top: 0px;
   z-index: 999;
+  padding: 0 5%;
 }
 header nav {
   background-color: #12141D;
@@ -351,7 +352,6 @@ svg .wheel {
 @media screen and (max-width: 479px){
   .footer{
     padding-top: 40px;
-
   }
 }
 .footer {
