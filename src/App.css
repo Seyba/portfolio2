@@ -237,7 +237,10 @@ svg .wheel {
 }
 /**? ==================== Home Page Section =================================== */
 @media screen and (max-width: 479px){
-
+  .sBtn {
+    padding: 20px 40px;
+  }
+  
   .hero-wrapper {
     padding-top: 72px;
     padding-bottom: 133px;

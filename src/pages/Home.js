@@ -35,7 +35,22 @@ export const Home = () => {
             <h4 className="text-lg font-semibold tracking-wide text-center py-4">Digital experience, made better</h4>
           </div>
         </div>
-      
+        <div className="mx-7 md:hidden">
+          <div>
+            <h1 className="text-5xl font-bold text-center py-4 tracking-wider">We're a creative digital studio.</h1>
+          </div>
+          <div>
+            <h2 className="text-gray-300 leading-7 text-2xl font-light py-4 text-center tracking-wider">I love user-focused design, thoughtfully crafted brands</h2>
+          </div>
+          <div >
+            <div className="flex justify-center my-4">
+              <Link className="sBtn">Enquire Now</Link>
+            </div>
+            <div className="flex justify-center">
+              <Link className="sBtn">View My Projects</Link>
+            </div>
+          </div>
+        </div>
         <div className="hidden md:block">
           <div className="flex justify-center">
             <div className="content-wrap">
