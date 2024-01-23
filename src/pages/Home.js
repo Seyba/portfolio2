@@ -98,8 +98,8 @@ export const Home = () => {
       </div>
 
       <div className="mt-16">
-        <div className="hidden md:flex justify-center">
-          <div className="grid grid-cols-4 md:grid-cols-2 place-items-center gap-2">
+        <div className="flex justify-center">
+          <div className=" grid md:grid-cols-4 grid-cols-2 place-items-center gap-2">
             <div className="px-4">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0,0,256,256">
