@@ -345,7 +345,23 @@ svg .wheel {
   transform-style: preserve-3d;
   opacity: 0;
 }
+.rounded-block {
+  display: flex;
+  width: 200%;
+  height: 200px;
+  border-top-left-radius: 25vw;
+  border-bottom-left-radius: 25vw;
+  align-items: center;
+  background-color: var(--color-20222e);
 
+}
+@media screen and (max-width: 479px){
+  .rounded-block {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+}
 /**? =============================== Home Page Section =================================== */
 
 

@@ -271,7 +271,7 @@ export const Home = () => {
             <h3>Top five reasons to work with me.</h3>
             <h4>I'm a subhead with that goes with a story.</h4>
           </div>
-          <div>
+          <div className="rounded-block">
             <h3>Image</h3>
           </div>
         </div>
