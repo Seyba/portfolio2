@@ -270,9 +270,17 @@ export const Home = () => {
             <h2>Why work with me</h2>
             <h3>Top five reasons to work with me.</h3>
             <h4>I'm a subhead with that goes with a story.</h4>
+            <div>
+              <div>
+                <img src=""/>
+                <p></p>
+              </div>
+            </div>
           </div>
           <div className="rounded-block">
-            <h3>Image</h3>
+            <div className="flex justify-center">
+              <h3>Image</h3>
+            </div>
           </div>
         </div>
       </div>
