@@ -264,8 +264,15 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-
+      <div className="service-wrapper">
+        <div className="md:grid grid-cols-2">
+          <div>
+            <h3>Top five reasons to work with me.</h3>
+          </div>
+          <div>
+            <h3>Image</h3>
+          </div>
+        </div>
       </div>
 
       
