@@ -264,10 +264,12 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="service-wrapper">
-        <div className="md:grid grid-cols-2">
+      <div className="mt-16 service-wrapper">
+        <div className="md:grid grid-cols-2 place-items-center gap-2">
           <div>
+            <h2>Why work with me</h2>
             <h3>Top five reasons to work with me.</h3>
+            <h4>I'm a subhead with that goes with a story.</h4>
           </div>
           <div>
             <h3>Image</h3>
