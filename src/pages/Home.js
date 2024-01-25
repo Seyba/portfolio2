@@ -270,21 +270,45 @@ export const Home = () => {
             <h2>Why work with me</h2>
             <h3>Top five reasons to work with me.</h3>
             <h4>I'm a subhead with that goes with a story.</h4>
-            <div className="flex">
-              <div className="flex">
-                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 ">
+            <div className="flex flex-wrap">
+              <div className="flex ">
+                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3">
                   <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
                     <img src="/images/service-icon-1.png" alt="service" width={30}/>
                   </div>
-                  <p className="font-base text-slate-300 text-lg tracking-wider">Animations</p>
+                  <p className="font-base text-slate-300 text-lg tracking-wider pr-4 ">Animations</p>
                 </div>
               </div>
               <div className="flex">
-                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 ">
+                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3 ">
                   <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
-                    <img src="/images/service-icon-1.png" alt="service" width={30}/>
+                    <img src="/images/service-icon-2.png" alt="service" width={30}/>
                   </div>
-                  <p className="font-base text-slate-300 text-lg tracking-wider">Animations</p>
+                  <p className="font-base text-slate-300 text-lg tracking-wider pr-4">Data Modelling</p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3 ">
+                  <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
+                    <img src="/images/service-icon-3.png" alt="service" width={30}/>
+                  </div>
+                  <p className="font-base text-slate-300 text-lg tracking-wider pr-4">Ecommerce</p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3 ">
+                  <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
+                    <img src="/images/service-icon-4.png" alt="service" width={30}/>
+                  </div>
+                  <p className="font-base text-slate-300 text-lg tracking-wider pr-4">Collaboration</p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3 ">
+                  <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
+                    <img src="/images/service-icon-5.png" alt="service" width={30}/>
+                  </div>
+                  <p className="font-base text-slate-300 text-lg tracking-wider pr-4">Friendly Support</p>
                 </div>
               </div>
             </div>
