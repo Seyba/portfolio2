@@ -264,20 +264,32 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-16 service-wrapper">
+      <div className="mt-16 ">
         <div className="md:grid grid-cols-2 place-items-center gap-2">
           <div>
             <h2>Why work with me</h2>
             <h3>Top five reasons to work with me.</h3>
             <h4>I'm a subhead with that goes with a story.</h4>
-            <div>
-              <div>
-                <img src=""/>
-                <p></p>
+            <div className="flex">
+              <div className="flex">
+                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 ">
+                  <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
+                    <img src="/images/service-icon-1.png" alt="service" width={30}/>
+                  </div>
+                  <p className="font-base text-slate-300 text-lg tracking-wider">Animations</p>
+                </div>
+              </div>
+              <div className="flex">
+                <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 ">
+                  <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
+                    <img src="/images/service-icon-1.png" alt="service" width={30}/>
+                  </div>
+                  <p className="font-base text-slate-300 text-lg tracking-wider">Animations</p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="rounded-block">
+          <div className="rounded-bloc">
             <div className="flex justify-center">
               <h3>Image</h3>
             </div>
