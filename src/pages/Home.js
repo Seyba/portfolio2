@@ -313,11 +313,21 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-bloc">
+          <div className="p-2">
             <div className="flex justify-center">
-              <img className="ipad" src="/images/mockupLg.png" alt="ipad"/>
+              <img className="ipad" src="/images/mockupLg.png" width="750" alt="ipad"/>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="mt-16 px-16 py-20 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900">
+        <div className="max-w-2xl">
+          <h3>Stay in touch</h3>
+          <h2>Ready to talk</h2>
+          <p>Feel free to contact me</p>
+          <Link className="sBtn">
+            Talk to me
+          </Link>
         </div>
       </div>
     </div>
