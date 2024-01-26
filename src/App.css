@@ -38,7 +38,7 @@ header {
   position: sticky;
   top: 0px;
   z-index: 999;
-  padding: 0 5%;
+  padding: 5px 5%;
   background-color: #12141D;
 }
 .navigation {
