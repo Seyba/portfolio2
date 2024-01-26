@@ -30,6 +30,9 @@ body {
   margin-left: auto;
   flex: 1;
 }
+.main-wrapper {
+  padding: 70px 5% 20px;
+}
 
 header {
   position: sticky;

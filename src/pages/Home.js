@@ -264,11 +264,11 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-16 ">
+      <div className="mt-16 main-wrapper">
         <div className="md:grid grid-cols-2 place-items-center gap-2">
-          <div>
+          <div className="max-w-md text-left">
             <h2>Why work with me</h2>
-            <h3>Top five reasons to work with me.</h3>
+            <h3 className="text-3xl font-solid">Top five reasons to work with me.</h3>
             <h4>I'm a subhead with that goes with a story.</h4>
             <div className="flex flex-wrap">
               <div className="flex ">
@@ -320,8 +320,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
-      
     </div>
   )
 }
