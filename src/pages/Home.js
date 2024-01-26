@@ -40,7 +40,7 @@ export const Home = () => {
             <h1 className="text-5xl font-bold text-center py-4 tracking-wider">We're a creative digital studio.</h1>
           </div>
           <div>
-            <h2 className="text-gray-300 leading-7 text-2xl font-light py-4 text-center tracking-wider">I love user-focused design, thoughtfully crafted brands</h2>
+            <h2 className="text-gray-300 leading-7 text-2xl font-light py-4 text-center tracking-wider">I love user-focused design, thoughtfully crafted applications</h2>
           </div>
           <div >
             <div className="flex justify-center my-4">
@@ -72,7 +72,7 @@ export const Home = () => {
             <h1 className="display-1 for-rotator">Digital Studio.</h1>
           </div>
           <div className="mt-6">
-            <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted brands</h2>
+            <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted applications</h2>
           </div>
         </div>
         <div className="hidden md:flex justify-center py-6 mt-6 ">
@@ -269,7 +269,7 @@ export const Home = () => {
           <div className="max-w-md text-left">
             <h2 className="text-lg font-semibold tracking-wide mb-4">Why work with me</h2>
             <h3 className="text-3xl font-bold mb-4">Top five reasons to work with me.</h3>
-            <h4 className="text-xl leading-6 tracking-wide font-thin text-slate-200 mb-4">I'm a subhead with that goes with a story.</h4>
+            <h4 className="text-xl leading-6 tracking-wide font-thin text-slate-200 mb-4">I'm a subhead that goes with a story.</h4>
             <div className="flex flex-wrap">
               <div className="flex ">
                 <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3">
@@ -320,14 +320,17 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-16 px-16 py-20 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900">
-        <div className="max-w-2xl">
-          <h3>Stay in touch</h3>
-          <h2>Ready to talk</h2>
-          <p>Feel free to contact me</p>
-          <Link className="sBtn">
-            Talk to me
-          </Link>
+      <div className="mt-16 px-16 flex justify-center py-24 bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900">
+        <div className="max-w-2xl text-center">
+          <h3 className="text-base font-semibold mb-4 tracking-widest ">Stay in touch</h3>
+          <h2 className="text-6xl font-bold tracking-wider py-2">Ready to talk</h2>
+          <p className="py-4 text-2xl font-thin leading-relaxed tracking-wider">Feel free to contact me</p>
+          <div className="flex justify-center">
+            <Link className="sBtn" to="/contact">
+              Talk to me
+            </Link>
+          </div>
+          
         </div>
       </div>
     </div>
