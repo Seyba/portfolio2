@@ -379,6 +379,9 @@ svg .wheel {
   background-color: var(--color-20222e);
 
 }
+.ipad {
+  transform: rotate3d(-1, -1, -1, 25deg);
+}
 @media screen and (max-width: 479px){
   .rounded-block {
     width: 100%;

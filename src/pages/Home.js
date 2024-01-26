@@ -315,7 +315,7 @@ export const Home = () => {
           </div>
           <div className="rounded-bloc">
             <div className="flex justify-center">
-              <h3>Image</h3>
+              <img className="ipad" src="/images/mockupLg.png" alt="ipad"/>
             </div>
           </div>
         </div>
