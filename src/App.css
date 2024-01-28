@@ -399,7 +399,7 @@ svg .wheel {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background-color: #3ccf91;
+  /* background-color: #18181b; */
 }
 .icon-box {
   padding: 15px 15px 25px;

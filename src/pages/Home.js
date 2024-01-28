@@ -220,7 +220,7 @@ export const Home = () => {
           <div className="icon-box">
             <div className="base-image">
               <img src="/images/service-bg.png" alt="" className="shape-image"/> 
-              <div className="service-circle">
+              <div className="service-circle bg-zinc-700">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="125" 
@@ -242,7 +242,7 @@ export const Home = () => {
           <div className="icon-box">
             <div className="base-image">
               <img src="/images/service-bg.png" alt="" className="shape-image"/> 
-              <div className="service-circle">
+              <div className="service-circle bg-zinc-700">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="128" 
@@ -262,7 +262,7 @@ export const Home = () => {
           <div className="icon-box">
             <div className="base-image">
               <img src="/images/service-bg.png" alt="" className="shape-image"/> 
-              <div className="service-circle">
+              <div className="service-circle bg-zinc-700">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="128" height="128"
