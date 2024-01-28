@@ -424,12 +424,18 @@ svg .wheel {
 .ipad {
   transform: rotate3d(1, 1, 1, -25deg);
 }
+@media screen and (max-width: 991px){
+  .service-grid {
+    max-width: 100%;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media screen and (max-width: 479px){
-  /* .rounded-block {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-  } */
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
 }
 /**? =============================== Home Page Section =================================== */
 
