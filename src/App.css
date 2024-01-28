@@ -411,6 +411,8 @@ svg .wheel {
 }
 .box-title {
   font-size: 22px;
+  margin: 15px 0;
+  font-weight: bold;
 }
 .base-image {
   position: relative;

@@ -234,7 +234,7 @@ export const Home = () => {
             </div>
             <div className="box-padding">
               <h3 className="box-title">Prototyping</h3>
-              <p>Make sure you are building the right product.</p>
+              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Make sure you are building the right product.</p>
             </div>
           </div>
           <div className="icon-box">
@@ -254,7 +254,7 @@ export const Home = () => {
             </div>
             <div className="box-padding">
               <h3 className="box-title">Prototyping</h3>
-              <p>Make sure you are building the right product.</p>
+              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Make sure you are building the right product.</p>
             </div>
           </div>
           <div className="icon-box">
@@ -273,7 +273,7 @@ export const Home = () => {
             </div>
             <div className="box-padding">
               <h3 className="box-title">Prototyping</h3>
-              <p>Make sure you are building the right product.</p>
+              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Make sure you are building the right product.</p>
             </div>
           </div>
         </div>
