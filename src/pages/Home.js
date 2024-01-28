@@ -213,7 +213,10 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="sMax-width bg-slate-800">
+      <div className="mt-16 sMax-width">
+        <div className="flex justify-center">
+          <h2 className="text-lg font-medium">Core Services</h2>
+        </div>
         <div className="service-grid">
           <div className="icon-box">
             <div className="base-image">
