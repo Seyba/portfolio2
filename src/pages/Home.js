@@ -342,12 +342,19 @@ export const Home = () => {
           <div>
             <img src="/images/port.jpg" width="600" className="profile-pic" alt="profile"/>
           </div>
-          <div>
-            <h3>Skills</h3>
-            <h2>My super skills for your project!</h2>
-            <h3>I am subhead that goes with a story</h3>
+          <div className="">
+            <div className="">
+              <h3 className="text-slate-200 text-3xl tracking-wider font-medium py-4 ">Skills</h3>
+            </div>
+            <div className="my-4">
+              <h2 className="text-5xl font-semibold tracking-wide py-4">My super skills for your project!</h2>
+            </div>
             <div>
-              <div>
+              <h3>I am subhead that goes with a story</h3>
+            </div>
+            
+            <div>
+              <div className="mb-4">
                 <div className="skills-text">
                   <div>NodeJS</div>
                   <div>80%</div>
@@ -356,7 +363,7 @@ export const Home = () => {
                   <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
                 </div>
               </div>
-              <div>
+              <div className="mb-4">
                 <div className="skills-text">
                   <div>SQL</div>
                   <div>50%</div>
@@ -365,7 +372,7 @@ export const Home = () => {
                   <div style={{width: '50%', height:'2px'}} className="skills-overlay"></div>
                 </div>
               </div>
-              <div>
+              <div className="mb-4">
                 <div className="skills-text">
                   <div>MongoDB</div>
                   <div>60%</div>
@@ -374,7 +381,7 @@ export const Home = () => {
                   <div style={{width: '60%', height:'2px'}} className="skills-overlay"></div>
                 </div>
               </div>
-              <div>
+              <div className="mb-4">
                 <div className="skills-text">
                   <div>HTML CSS</div>
                   <div>80%</div>
