@@ -349,6 +349,20 @@ export const Home = () => {
           
         </div>
       </div>
+      <div className="mt-16 main-wrapper">
+        <div className="md:grid grid-cols-2 place-items-center gap-2">
+          <div>
+            <h3>Image</h3>
+            <img src="/images/port.jpg" alt="profile"/>
+          </div>
+          <div>
+            <h3>Skills</h3>
+            <h2>My super skills for your project!</h2>
+            <h3>I am subhead that goes with a story</h3>
+          </div>
+        </div>
+        
+      </div>
     </div>
   )
 }
