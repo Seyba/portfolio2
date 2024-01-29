@@ -447,7 +447,7 @@ svg .wheel {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: #3ccf91;
+  background-color: var(--color-bdbebeeb);
   width: 80%;
 }
 /**? ============================= Large screens ===================================**/

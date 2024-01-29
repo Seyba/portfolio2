@@ -339,7 +339,7 @@ export const Home = () => {
 
       <div className="mt-16 main-wrapper">
         <div className="md:grid grid-cols-2 place-items-center gap-2">
-          <div>
+          <div className="">
             <img src="/images/port.jpg" width="600" className="profile-pic" alt="profile"/>
           </div>
           <div className="">
@@ -347,10 +347,10 @@ export const Home = () => {
               <h3 className="text-slate-200 text-3xl tracking-wider font-medium py-4 ">Skills</h3>
             </div>
             <div className="my-4">
-              <h2 className="text-5xl font-semibold tracking-wide py-4">My super skills for your project!</h2>
+              <h2 className="text-5xl text-zinc-300 font-semibold tracking-wide">My super skills for your project!</h2>
             </div>
             <div>
-              <h3>I am subhead that goes with a story</h3>
+              <h3 className="text-3xl text-gray-400 font-thin tracking-wide py-4">MERN stack tech tools</h3>
             </div>
             
             <div>
