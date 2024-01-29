@@ -352,35 +352,45 @@ export const Home = () => {
                   <div>NodeJS</div>
                   <div>80%</div>
                 </div>
-                <div style={{width: '80%', height:'2px'}} className=""></div>
+                <div className="skills-wrapper">
+                  <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
+                </div>
               </div>
               <div>
                 <div className="skills-text">
                   <div>SQL</div>
                   <div>50%</div>
                 </div>
-                <div style={{width: '80%', height:'2px'}} className=""></div>
+                <div className="skills-wrapper">
+                  <div style={{width: '50%', height:'2px'}} className="skills-overlay"></div>
+                </div>
               </div>
               <div>
                 <div className="skills-text">
                   <div>MongoDB</div>
                   <div>60%</div>
                 </div>
-                <div style={{width: '80%', height:'2px'}} className=""></div>
+                <div className="skills-wrapper">
+                  <div style={{width: '60%', height:'2px'}} className="skills-overlay"></div>
+                </div>
               </div>
               <div>
                 <div className="skills-text">
                   <div>HTML CSS</div>
                   <div>80%</div>
                 </div>
-                <div style={{width: '80%', height:'2px'}} className=""></div>
+                <div className="skills-wrapper">
+                  <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
+                </div>
               </div>
               <div>
                 <div className="skills-text">
                   <div>Firebase</div>
                   <div>70%</div>
                 </div>
-                <div style={{width: '80%', height:'2px'}} className=""></div>
+                <div className="skills-wrapper">
+                  <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
+                </div>
               </div>
             </div>
           </div>

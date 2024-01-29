@@ -441,6 +441,15 @@ svg .wheel {
   height: 2px;
   background-color: transparent;
 }
+.skills-overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #3ccf91;
+  width: 80%;
+}
 /**? ============================= Large screens ===================================**/
 @media screen and (max-width: 991px){
   .service-grid {
