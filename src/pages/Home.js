@@ -336,6 +336,57 @@ export const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-16 main-wrapper">
+        <div className="md:grid grid-cols-2 place-items-center gap-2">
+          <div>
+            <img src="/images/port.jpg" width="600" className="profile-pic" alt="profile"/>
+          </div>
+          <div>
+            <h3>Skills</h3>
+            <h2>My super skills for your project!</h2>
+            <h3>I am subhead that goes with a story</h3>
+            <div>
+              <div>
+                <div className="skills-text">
+                  <div>NodeJS</div>
+                  <div>80%</div>
+                </div>
+                <div style={{width: '80%', height:'2px'}} className=""></div>
+              </div>
+              <div>
+                <div className="skills-text">
+                  <div>SQL</div>
+                  <div>50%</div>
+                </div>
+                <div style={{width: '80%', height:'2px'}} className=""></div>
+              </div>
+              <div>
+                <div className="skills-text">
+                  <div>MongoDB</div>
+                  <div>60%</div>
+                </div>
+                <div style={{width: '80%', height:'2px'}} className=""></div>
+              </div>
+              <div>
+                <div className="skills-text">
+                  <div>HTML CSS</div>
+                  <div>80%</div>
+                </div>
+                <div style={{width: '80%', height:'2px'}} className=""></div>
+              </div>
+              <div>
+                <div className="skills-text">
+                  <div>Firebase</div>
+                  <div>70%</div>
+                </div>
+                <div style={{width: '80%', height:'2px'}} className=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
       <div className="mt-16 px-16 flex justify-center py-24 bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900">
         <div className="max-w-2xl text-center">
           <h3 className="text-base font-semibold mb-4 tracking-widest ">Stay in touch</h3>
@@ -349,20 +400,7 @@ export const Home = () => {
           
         </div>
       </div>
-      <div className="mt-16 main-wrapper">
-        <div className="md:grid grid-cols-2 place-items-center gap-2">
-          <div>
-            <h3>Image</h3>
-            <img src="/images/port.jpg" alt="profile"/>
-          </div>
-          <div>
-            <h3>Skills</h3>
-            <h2>My super skills for your project!</h2>
-            <h3>I am subhead that goes with a story</h3>
-          </div>
-        </div>
-        
-      </div>
+      
     </div>
   )
 }
