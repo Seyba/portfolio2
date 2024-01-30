@@ -408,6 +408,24 @@ export const Home = () => {
                   <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
                 </div>
               </div>
+              <div className="mb-4">
+                <div className="skills-text">
+                  <div>Bootstrap</div>
+                  <div>70%</div>
+                </div>
+                <div className="skills-wrapper">
+                  <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
+                </div>
+              </div>
+              <div className="mb-4">
+                <div className="skills-text">
+                  <div>Tailwind CSS</div>
+                  <div>50%</div>
+                </div>
+                <div className="skills-wrapper">
+                  <div style={{width: '50%', height:'2px'}} className="skills-overlay"></div>
+                </div>
+              </div>
               <div>
                 <div className="skills-text">
                   <div>Firebase</div>
