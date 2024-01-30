@@ -21,8 +21,29 @@ export const Carousel = () => {
         setLeft(left === 0? index : left - 1)
     }
     return(
-        <div>
-
+        <div className="flex flex-row ml-auto mr-auto">
+            <button className="bg-stone-500 text-xl p-2" onClick={() => prev}>
+                {"\u2770"}
+            </button>
+            {
+                [left, current, right].map((idx) => (
+                    <div
+                        key={idx}
+                        className="flex justify-center ml-5 mr-5 w-[15vw] h-[15vh] border-2 border-black"
+                    >
+                        {
+                            data[idx] ? (
+                                <div className="flex flex-col items-center ml-5 mr-5 w-[15vw] h-[15vh]">
+                                    {data[idx].item}
+                                </div>
+                            ):("____")
+                        }
+                    </div>
+                ))
+            }
+            <button className="bg-stone-500 text-xl p-2" onClick={() => next}>
+                {"\u2770"}
+            </button>
         </div>
     )
 }
