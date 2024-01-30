@@ -340,7 +340,7 @@ export const Home = () => {
       <div className="mt-16 main-wrapper">
         <div className="md:grid grid-cols-2 place-items-center gap-2">
           <div className="">
-            <img src="/images/port.jpg" width="600" className="profile-pic" alt="profile"/>
+            <img src="/images/port.jpg" width="600" className="profile-pic max-h-2xl" alt="profile"/>
           </div>
           <div className="">
             <div className="">
@@ -374,11 +374,29 @@ export const Home = () => {
               </div>
               <div className="mb-4">
                 <div className="skills-text">
-                  <div>MongoDB</div>
-                  <div>60%</div>
+                  <div>ReactJS</div>
+                  <div>85%</div>
                 </div>
                 <div className="skills-wrapper">
-                  <div style={{width: '60%', height:'2px'}} className="skills-overlay"></div>
+                  <div style={{width: '85%', height:'2px'}} className="skills-overlay"></div>
+                </div>
+              </div>
+              <div className="mb-4">
+                <div className="skills-text">
+                  <div>ExpressJS</div>
+                  <div>80%</div>
+                </div>
+                <div className="skills-wrapper">
+                  <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
+                </div>
+              </div>
+              <div className="mb-4">
+                <div className="skills-text">
+                  <div>MongoDB</div>
+                  <div>70%</div>
+                </div>
+                <div className="skills-wrapper">
+                  <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
                 </div>
               </div>
               <div className="mb-4">
