@@ -5,8 +5,12 @@ export const ContactForm = () => {
     <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
       <form>
         <div className="px-2">
-          <h3>contact Me</h3>
-          <h4>Let's start your project</h4>
+          <div>
+            <h3 className="text-2xl font-light tracking-wider py-4 leading-6 text-center">Contact Me</h3>
+          </div>
+          <div>
+            <h4 className="text-4xl font-bold text-center tracking-wider">Let's start your project</h4>
+          </div>
           <label htmlFor="name" className="block text-sm font-medium uppercase leading-6 text-gray-100">
             Name 
           </label>
@@ -17,7 +21,7 @@ export const ContactForm = () => {
               type="text"
               autoComplete="name"
               required
-              className="block w-full rounded-sm bg-zinc-800 border-0 py-2.5 px-2 text-slate-100 shadow-sm ring-1 ring-inset ring-gray-700 placeholder:text-slate-100 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              className="block w-full rounded-sm bg-zinc-800 border-0 py-2.5 px-2 text-slate-100 shadow-sm ring-1 ring-gray-700 placeholder:text-slate-100  focus:ring-slate-100 sm:text-sm sm:leading-6"
             />
           </div>
           <label htmlFor="email" className="block text-sm uppercase font-medium leading-6 text-gray-100">
