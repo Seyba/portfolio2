@@ -1,5 +1,7 @@
 import React, {useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Carousel } from '../component/Carousel'
+import { ContactForm } from '../component/ContactForm'
 
 export const Home = () => {
   const [rightText, setRightText] = useState('')
@@ -491,6 +493,9 @@ export const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <ContactForm/>
       </div>
       <div className="mt-16 px-16 flex justify-center py-24 bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-900">
         <div className="max-w-2xl text-center">

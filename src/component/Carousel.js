@@ -3,7 +3,9 @@ import React, {useState, useEffect} from "react";
 export const Carousel = () => {
     const data = [
         {item: 'one'},
-        {item: 'two'}
+        {item: 'two'},
+        {item: 'three'}
+        
     ]
     const [index, setIndex] = useState(data.length > 3 ? data.length - 1 : 2 )
     const [right, setRight] = useState(1)
@@ -22,7 +24,7 @@ export const Carousel = () => {
     }
     return(
         <div className="flex flex-row ml-auto mr-auto">
-            <button className="bg-stone-500 text-xl p-2" onClick={() => prev}>
+            <button className="bg-stone-500 text-xl p-2" onClick={() => prev()}>
                 {"\u2770"}
             </button>
             {
@@ -41,8 +43,8 @@ export const Carousel = () => {
                     </div>
                 ))
             }
-            <button className="bg-stone-500 text-xl p-2" onClick={() => next}>
-                {"\u2770"}
+            <button className="bg-stone-500 text-xl p-2" onClick={() => next()}>
+                {"\u2771"}
             </button>
         </div>
     )
