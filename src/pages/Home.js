@@ -2,6 +2,7 @@ import React, {useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Carousel } from '../component/Carousel'
 import { ContactForm } from '../component/ContactForm'
+import { Blog } from '../component/Blog'
 
 export const Home = () => {
   const [rightText, setRightText] = useState('')
@@ -510,6 +511,9 @@ export const Home = () => {
       </div>
       <div className="main-bg">
         <ContactForm/>
+      </div>
+      <div>
+        <Blog/>
       </div>
     </div>
   )
