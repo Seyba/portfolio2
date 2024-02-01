@@ -508,7 +508,7 @@ export const Home = () => {
           
         </div>
       </div>
-      <div className="">
+      <div className="main-bg">
         <ContactForm/>
       </div>
     </div>
