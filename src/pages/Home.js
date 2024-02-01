@@ -508,7 +508,7 @@ export const Home = () => {
           
         </div>
       </div>
-      <div className="bg-gray-500">
+      <div className="">
         <ContactForm/>
       </div>
     </div>
