@@ -512,7 +512,7 @@ export const Home = () => {
       <div className="main-bg">
         <ContactForm/>
       </div>
-      <div>
+      <div className="sMax-width">
         <Blog/>
       </div>
     </div>

@@ -4,7 +4,7 @@ export const ContactForm = () => {
   return (
     <div className="sm:mx-auto sm:w-full sm:max-w-sm">
       <form>
-        <div className="px-2">
+        <div className="px-3">
           <div>
             <h3 className="text-2xl font-light tracking-wider py-4 leading-6 text-center">Contact Me</h3>
           </div>
