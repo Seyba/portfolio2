@@ -23,7 +23,7 @@ export const Blog = () => {
                                 <div>
                                     <h4 className="text-xl font-semibold my-4">{blog.content}</h4>
                                 </div>
-                                <p>{blog.date}</p>
+                                <p className="text-sm font-thin text-zinc-500">{blog.date}</p>
                             </div>
                         </div>
                     )
