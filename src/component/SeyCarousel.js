@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
+import { Carousel } from 'antd';
 
-export const Carousel = () => {
+export const SeyCarousel = () => {
     const data = [
         {item: 'one'},
         {item: 'two'},

@@ -26,13 +26,15 @@ export const Blog = () => {
                             <div className="bg-zinc-800 p-8">
                                 <Link to={`${blog.link}`}>
                                     <button className="bg-zinc-300 py-2 px-6 rounded-md text-zinc-900 font-bold text-sm">
-                                        Full Stack
+                                        Code
                                     </button>
                                 </Link>
                                 <div>
                                     <h4 className="text-xl font-semibold my-4">{blog.content}</h4>
                                 </div>
-                                <p className="text-sm font-thin text-zinc-500">{blog.date}</p>
+                                <div className="mt-8">
+                                    <p className="text-sm font-thin text-zinc-500">{blog.date}</p>
+                                </div>
                             </div>
                         </div>
                     )

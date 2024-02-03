@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Carousel } from '../component/Carousel'
+import { SeyCarousel } from '../component/SeyCarousel'
 import { ContactForm } from '../component/ContactForm'
 import { Blog } from '../component/Blog'
 
@@ -29,6 +29,14 @@ export const Home = () => {
 
     return () => clearInterval(interval)
   })
+
+  const contentStyle = {
+    height: '160px',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: '#364d79',
+  };
   return (
     <div>
       <div className="mt-16">
@@ -515,6 +523,7 @@ export const Home = () => {
       <div className="sMax-width mt-32">
         <Blog/>
       </div>
+      
     </div>
   )
 }
