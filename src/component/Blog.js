@@ -20,7 +20,9 @@ export const Blog = () => {
                             </div>
                             <div className="bg-zinc-800 p-8">
                                 <Link to={`${blog.link}`}>Design</Link>
-                                <div>{blog.content}</div>
+                                <div>
+                                    <h4 className="text-xl font-semibold my-4">{blog.content}</h4>
+                                </div>
                                 <p>{blog.date}</p>
                             </div>
                         </div>
