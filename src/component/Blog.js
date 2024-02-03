@@ -10,21 +10,25 @@ export const Blog = () => {
   return (
     <div>
         <h2>I Share my thoughts on design</h2>
-        {
-            blogs?.map((blog) => {
-                return(
-                    <div key={blog.id} className="service-grid">
-                        <div className="">
-                            <img src={blog.image} alt="blog"/>
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 place-items-center gap-6">
+            {
+                blogs?.map((blog) => {
+                    return(
+                        <div key={blog.id} className="">
+                            <div className="">
+                                <img src={blog.image} alt="blog"/>
+                            </div>
+                            <div>
+                                <Link to={`${blog.link}`}>Design</Link>
+                                <div>{blog.content}</div>
+                                <p>{blog.date}</p>
+                            </div>
                         </div>
-                        
-                        <Link to={`${blog.link}`}>Design</Link>
-                        <div>{blog.content}</div>
-                        <p>{blog.date}</p>
-                    </div>
-                )
-            })
-        }
+                    )
+                })
+            }
+        </div>
+        
     </div>
   )
 }
