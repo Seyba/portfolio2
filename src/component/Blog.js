@@ -9,7 +9,12 @@ export const Blog = () => {
     ]
   return (
     <div>
-        <h2>I Share my thoughts on design</h2>
+        <div className="flex justify-center">
+            <p className="text-base font-light">From Blog</p>
+        </div>
+        <div className="flex justify-center mx-4">
+            <h2 className="text-5xl text-center font-bold py-4">I Share my thoughts on design</h2>
+        </div>
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-3 md:grid-cols-2">
             {
                 blogs?.map((blog) => {
