@@ -509,10 +509,10 @@ export const Home = () => {
           
         </div>
       </div>
-      <div className="main-bg">
+      <div className="main-bg ">
         <ContactForm/>
       </div>
-      <div className="sMax-width">
+      <div className="sMax-width mt-32">
         <Blog/>
       </div>
     </div>
