@@ -42,20 +42,23 @@ export const SeyCarousel = () => {
                     <div className="carousel-img"/>
                     <h4>{data[0].msg}</h4>
                     <p>{data[0].customer}</p>
+                    <p>{data[0].title}</p>
                 </div>
             </div>
             <div>
                 <div style={antContent}>
-                    <div className="carousel-img"/>
+                    <div className="carousel-img2"/>
                     <h4>{data[1].msg}</h4>
                     <p>{data[1].customer}</p>
+                    <p>{data[1].title}</p>
                 </div>
             </div>
             <div>
                 <div style={antContent}>
-                    <div className="carousel-img"/> 
+                    <div className="carousel-img3"/> 
                     <h4>{data[2].msg}</h4>
                     <p>{data[2].customer}</p>
+                    <p>{data[2].title}</p>
                 </div>
             </div>
             
