@@ -22,6 +22,7 @@ body {
   --color-3b4149: #3b4149;
   --color-bdbebeeb: #bdbebeeb;
   --color-20222e: #20222e;
+  --color-carousel-bg: #373637;
 
 }
 .container {
@@ -462,6 +463,30 @@ svg .wheel {
   margin-left: auto;
   border-radius: 100%;
   background-image: url('../public/images/customer1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-img {
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-radius: 100%;
+  background-image: url('../public/images/customer2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-img {
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-radius: 100%;
+  background-image: url('../public/images/customer3.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
