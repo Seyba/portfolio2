@@ -1,6 +1,7 @@
 import React, {useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { SeyCarousel } from '../component/SeyCarousel'
+import { Carousel } from 'antd';
 import { ContactForm } from '../component/ContactForm'
 import { Blog } from '../component/Blog'
 
@@ -523,7 +524,9 @@ export const Home = () => {
       <div className="sMax-width mt-32">
         <Blog/>
       </div>
-      
+      <div className="">
+        <SeyCarousel/>
+      </div>
     </div>
   )
 }

@@ -453,6 +453,19 @@ svg .wheel {
   background-color: var(--color-bdbebeeb);
   width: 80%;
 }
+
+.carousel-img {
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-radius: 100%;
+  background-image: url('../public/images/customer1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /**? ============================= Large screens ===================================**/
 @media screen and (max-width: 991px){
   .service-grid {
@@ -485,13 +498,13 @@ svg .wheel {
 
 /**? =============================== Home Page Section =================================== */
 
-
 /**? ================================= Footer Section =================================== */
 @media screen and (max-width: 479px){
   .footer{
     padding-top: 40px;
   }
 }
+
 .footer {
   padding: 70px 5% 20px;
 }
