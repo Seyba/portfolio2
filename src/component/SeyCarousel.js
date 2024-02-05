@@ -41,9 +41,9 @@ export const SeyCarousel = () => {
                     <div>
                         <h4 className="md:text-4xl md:px-20 lg:px-64 px-4 text-lg font-normal ">{data[0].msg}</h4>
                     </div>
-                    <div className="my-2">
+                    <div className="mt-4">
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[0].customer}</p>
-                        <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[0].title}</p>
+                        <p className="md:text-sm text-xs text-zinc-500 font-bold tracking-tighter">{data[0].title}</p>
                     </div>
                 </div>
             </div>
@@ -53,9 +53,9 @@ export const SeyCarousel = () => {
                     <div className="">
                         <h4 className="md:text-4xl md:px-20 lg:px-64 px-4 text-lg font-normal">{data[1].msg}</h4>
                     </div>
-                    <div className="my-2">
+                    <div className="mt-4">
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[1].customer}</p>
-                        <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[1].title}</p>
+                        <p className="md:text-sm text-xs text-zinc-500 font-bold tracking-tighter">{data[1].title}</p>
                     </div>
                     
                 </div>
@@ -66,9 +66,9 @@ export const SeyCarousel = () => {
                     <div>
                         <h4 className="md:text-4xl md:px-20 lg:px-64 px-4 text-lg font-normal ">{data[2].msg}</h4>
                     </div>
-                    <div>
+                    <div className="mt-4">
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[2].customer}</p>
-                        <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[2].title}</p>
+                        <p className="md:text-sm text-xs text-zinc-500 font-bold tracking-tighter">{data[2].title}</p>
                     </div>
                 </div>
             </div>
