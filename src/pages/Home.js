@@ -524,7 +524,12 @@ export const Home = () => {
       <div className="sMax-width mt-32">
         <Blog/>
       </div>
-      <div className="">
+      <div className="mt-6 carousel-bg">
+        <div>
+          <h4>What they think</h4>
+          <h2>Testimonials</h2>
+          <p>Great user experience</p>
+        </div>
         <SeyCarousel/>
       </div>
     </div>

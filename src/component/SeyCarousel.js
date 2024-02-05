@@ -13,14 +13,14 @@ export const SeyCarousel = () => {
         {
             id: 'b2c', 
             imgSr:"/images/customer2.jpg", 
-            msg:"It's hard to do really good job on anything you don't think about in the shower.", 
+            msg:"Your most unhappy customers are your greatest source of learning.", 
             customer:"Jane Doe",
             title: "Customer"
         } ,
         {
             id: 'bkc', 
             imgSr:"/images/customer3.jpg", 
-            msg:"It's hard to do really good job on anything you don't think about in the shower.", 
+            msg:"Your reputation is more important than your paycheck, and your integrity.", 
             customer:"John Doe",
             title: "Customer"
         }
@@ -34,12 +34,12 @@ export const SeyCarousel = () => {
         background: '#1f1f20',
     }
     return(
-        <Carousel autoplay className="mt-6"> 
+        <Carousel autoplay > 
             <div>
                 <div style={antContent}>
                     <div className="carousel-img"/>
                     <div>
-                        <h4 className="md:text-4xl md:px-64 px-4 text-lg font-normal ">{data[0].msg}</h4>
+                        <h4 className="md:text-4xl md:px-20 lg:px-64 px-4 text-lg font-normal ">{data[0].msg}</h4>
                     </div>
                     <div className="my-2">
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[0].customer}</p>
@@ -51,7 +51,7 @@ export const SeyCarousel = () => {
                 <div style={antContent}>
                     <div className="carousel-img2"/>
                     <div className="">
-                        <h4 className="md:text-4xl md:px-64 px-4 text-lg font-normal ">{data[1].msg}</h4>
+                        <h4 className="md:text-4xl md:px-20 lg:px-64 px-4 text-lg font-normal">{data[1].msg}</h4>
                     </div>
                     <div className="my-2">
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[1].customer}</p>
@@ -64,7 +64,7 @@ export const SeyCarousel = () => {
                 <div style={antContent}>
                     <div className="carousel-img3"/> 
                     <div>
-                        <h4 className="md:text-4xl md:px-64 px-4 text-lg font-normal ">{data[2].msg}</h4>
+                        <h4 className="md:text-4xl md:px-20 lg:px-64 px-4 text-lg font-normal ">{data[2].msg}</h4>
                     </div>
                     <div>
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[2].customer}</p>

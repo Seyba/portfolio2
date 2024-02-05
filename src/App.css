@@ -22,7 +22,7 @@ body {
   --color-3b4149: #3b4149;
   --color-bdbebeeb: #bdbebeeb;
   --color-20222e: #20222e;
-  --color-carousel-bg: #373637;
+  --color-carousel-bg: #1f1f20;
 
 }
 .container {
@@ -490,6 +490,9 @@ svg .wheel {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.carousel-bg {
+  background-color: var(--color-carousel-bg);
 }
 /**? ============================= Large screens ===================================**/
 @media screen and (max-width: 991px){
