@@ -7,21 +7,21 @@ export const SeyCarousel = () => {
             id: 'a2c', 
             imgSr:"/images/customer1.jpg", 
             msg:"It's hard to do really good job on anything you don't think about in the shower.", 
-            customer:"John Doe",
+            customer:"John Smith",
             title: "Customer"
         } ,
         {
             id: 'b2c', 
             imgSr:"/images/customer2.jpg", 
             msg:"It's hard to do really good job on anything you don't think about in the shower.", 
-            customer:"John Doe",
+            customer:"Jane Doe",
             title: "Customer"
         } ,
         {
             id: 'bkc', 
             imgSr:"/images/customer3.jpg", 
             msg:"It's hard to do really good job on anything you don't think about in the shower.", 
-            customer:"Jane Doe",
+            customer:"John Doe",
             title: "Customer"
         }
     ]
