@@ -525,10 +525,12 @@ export const Home = () => {
         <Blog/>
       </div>
       <div className="mt-6 carousel-bg">
-        <div>
-          <h4>What they think</h4>
-          <h2>Testimonials</h2>
-          <p>Great user experience</p>
+        <div className="flex justify-center text-center leading-9">
+          <div className="pt-8">
+            <h4 className="text-lg tracking-wide font-semibold py-2">What they think</h4>
+            <h2 className="text-5xl font-bold tracking-wider py-2">Testimonials</h2>
+            <p className="text-2xl text-zinc-500 font-light tracking-wide py-2">Great user experience</p>
+          </div>
         </div>
         <SeyCarousel/>
       </div>
