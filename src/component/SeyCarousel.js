@@ -38,7 +38,9 @@ export const SeyCarousel = () => {
             <div>
                 <div style={antContent}>
                     <div className="carousel-img"/>
-                    <h4>{data[0].msg}</h4>
+                    <div>
+                        <h4 className="md:text-4xl md:px-64 px-4 text-lg font-normal ">{data[0].msg}</h4>
+                    </div>
                     <div className="my-2">
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[0].customer}</p>
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[0].title}</p>
@@ -61,7 +63,9 @@ export const SeyCarousel = () => {
             <div>
                 <div style={antContent}>
                     <div className="carousel-img3"/> 
-                    <h4>{data[2].msg}</h4>
+                    <div>
+                        <h4 className="md:text-4xl md:px-64 px-4 text-lg font-normal ">{data[2].msg}</h4>
+                    </div>
                     <div>
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[2].customer}</p>
                         <p className="md:text-lg text-sm text-zinc-500 font-medium tracking-wide">{data[2].title}</p>
