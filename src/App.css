@@ -527,20 +527,6 @@ svg .wheel {
 /**? =============================== Home Page Section =================================== */
 
 /**? =============================== About Page Section =================================== */
-.about-hero {
-  display: flex;
-  min-height: 900px;
-  align-items: center;
-  background-image: url('../public/images/team.jpg');
-  background-repeat: repeat no-repeat;
-  background-position: 0px 0px 50% 50%;
-  background-size: auto cover; 
-}
-.team-heading {
-  max-width: 1200px;
-  margin: 0 auto;
-  flex: 1;
-}
 /**? =============================== About Page Section =================================== */
 
 

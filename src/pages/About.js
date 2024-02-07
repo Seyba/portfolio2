@@ -23,10 +23,15 @@ export const About = () => {
           </div>
         </div>    
       </div>
-      <section className="about-hero">
-        <div className="team-heading">
-          
-          <h2 className="">I can be part of a team of great developers, problem solvers, and passionate collaborators.</h2>
+      <section className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+        <img src="/images/team.jpg" 
+          alt="banner"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+        />
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-xl font-bold tracking-tight text-white sm:text-2xl">I can be part of a team of great developers, problem solvers, and passionate collaborators.</h2>
+          </div>
         </div>
       </section>
       <div>
