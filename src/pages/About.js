@@ -23,6 +23,13 @@ export const About = () => {
           </div>
         </div>    
       </div>
+      <div>
+        <p>
+          I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.  I have a diverse range of experience having worked across various fields and industries.
+          I have professional experience in customer service, in teaching and hospitality.
+          I am proficient in JavaScript, HTML/CSS, React, Firebase, bootstrap, Sass and Tailwind CSS.
+        </p>
+      </div>
     </>
   )
 }
