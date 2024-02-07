@@ -23,9 +23,12 @@ export const About = () => {
           </div>
         </div>    
       </div>
-      <div>
-        
-      </div>
+      <section className="about-hero">
+        <div className="team-heading">
+          
+          <h2 className="">I can be part of a team of great developers, problem solvers, and passionate collaborators.</h2>
+        </div>
+      </section>
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
