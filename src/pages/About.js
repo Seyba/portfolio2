@@ -40,11 +40,14 @@ export const About = () => {
             <h2>Image</h2>
           </div>
           <div>
-            <p>
-              I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.  I have a diverse range of experience having worked across various fields and industries.
-              I have professional experience in customer service, in teaching and hospitality.
-              I am proficient in JavaScript, HTML/CSS, React, Firebase, bootstrap, Sass and Tailwind CSS.
-            </p>
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <p className="text-base sm:lg">
+                I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.  I have a diverse range of experience having worked across various fields and industries.
+                I have professional experience in customer service, in teaching and hospitality.
+                I am proficient in JavaScript, HTML/CSS, React, Firebase, bootstrap, Sass and Tailwind CSS.
+              </p>
+            </div>
+            
           </div>
         </div>
       </div>
