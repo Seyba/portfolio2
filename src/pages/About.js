@@ -1,6 +1,7 @@
 import React from 'react'
 import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
+import { SmoothScrolling } from '../component/SmoothScrolling'
 
 export const About = () => {
   return (
@@ -41,18 +42,21 @@ export const About = () => {
           </div>
           <div>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <p className="text-xl leading-9 tracking-wide py-12 text-gray-500">
-                I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.
-                I am passionate about transforming visionary concepts into immersive digital experiences. With expertise in both front and back-end technologies,
-                my mission is to craft solutions that exceed expectations. 
-                I have professional experience in customer service, in teaching and hospitality.
-                I am proficient in JavaScript, HTML/CSS, React, Firebase, bootstrap, Sass and Tailwind CSS.
-              </p>
-              <h4 className="text-xl font-semibold tracking-tight leading-9">Mahamadou Tirera aka Seyba -- Dynamic Developer</h4>
+              <SmoothScrolling>
+                <p className="text-xl leading-9 tracking-wide py-12 text-gray-500">
+                  I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.
+                  I am passionate about transforming visionary concepts into immersive digital experiences. With expertise in both front and back-end technologies,
+                  my mission is to craft solutions that exceed expectations. 
+                  I have professional experience in customer service, in teaching and hospitality.
+                  I am proficient in JavaScript, HTML/CSS, React, Firebase, bootstrap, Sass and Tailwind CSS.
+                </p>
+                <h4 className="text-xl font-semibold tracking-tight leading-9">Mahamadou Tirera aka Seyba -- Dynamic Developer</h4>
+              </SmoothScrolling>
             </div>
           </div>
         </div>
       </div>
+      
     </>
   )
 }
