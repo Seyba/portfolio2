@@ -34,7 +34,7 @@ export const ContactForm = () => {
               type="email"
               autoComplete="email"
               required
-              className="block w-full rounded-sm border-0 bg-zinc-800 py-2.5 px-2 text-slate-100 shadow-sm ring-1 ring-inset ring-gray-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              className="block w-full rounded-sm bg-zinc-800 border-0 py-2.5 px-2 text-slate-100 shadow-sm ring-1 ring-gray-700 placeholder:text-slate-100  focus:ring-slate-100 sm:text-sm sm:leading-6"
             />
           </div>
           <div>
@@ -46,7 +46,7 @@ export const ContactForm = () => {
                 id="message"
                 name="message"
                 rows={3}
-                className="block w-full rounded-sm border-0 bg-zinc-800 py-2.5 px-2 text-sltate-100 shadow-sm ring-1 ring-inset ring-gray-700 placeholder:text-slate-100 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-sm bg-zinc-800 border-0 py-2.5 px-2 text-slate-100 shadow-sm ring-1 ring-gray-700 placeholder:text-slate-100  focus:ring-slate-100 sm:text-sm sm:leading-6"
                 defaultValue={''}
               />
             </div>
