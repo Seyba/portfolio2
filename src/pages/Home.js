@@ -297,7 +297,7 @@ export const Home = () => {
           <div className="max-w-md text-left">
             <h2 className="text-lg font-semibold tracking-wide mb-4">Why work with me</h2>
             <h3 className="text-5xl font-bold mb-4 tracking-loose">Top five reasons to work with me.</h3>
-            <h4 className="text-2xl leading-9 tracking-wide font-normal text-slate-200 mb-4">I'm a subhead that goes with a story.</h4>
+            <h4 className="text-2xl leading-9 tracking-wide font-normal text-slate-200 mb-4">Let's bring your ideas to life!</h4>
             <div className="flex flex-wrap">
               <div className="flex ">
                 <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3">
