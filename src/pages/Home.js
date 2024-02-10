@@ -248,7 +248,7 @@ export const Home = () => {
             </div>
             <div className="box-padding">
               <h3 className="box-title">Front-End</h3>
-              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Develop scalable and suitable websites to any devices.</p>
+              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Strong foundation in front-end technologies, creating responsive and visually appealing user interfaces.</p>
             </div>
           </div>
           <div className="icon-box">
@@ -268,7 +268,7 @@ export const Home = () => {
             </div>
             <div className="box-padding">
               <h3 className="box-title">Back-End</h3>
-              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Store and secure user data, retrieve and filter them to the user interface.</p>
+              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Designed and implemented RESTful APIs, ensuring seamless communication between client and server.</p>
             </div>
           </div>
           <div className="icon-box">
@@ -287,7 +287,7 @@ export const Home = () => {
             </div>
             <div className="box-padding">
               <h3 className="box-title">Full-Stack </h3>
-              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Make a secure connection between the front and back-end application.</p>
+              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Experienced in building dynamic and interactive web applications using React and Node JS.</p>
             </div>
           </div>
         </div>
