@@ -44,10 +44,11 @@ export const About = () => {
               <p className="text-xl leading-9 tracking-wide py-12 text-gray-500">
                 I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.
                 I am passionate about transforming visionary concepts into immersive digital experiences. With expertise in both front and back-end technologies,
-                mission is to craft solutions that exceed expectations. 
+                my mission is to craft solutions that exceed expectations. 
                 I have professional experience in customer service, in teaching and hospitality.
                 I am proficient in JavaScript, HTML/CSS, React, Firebase, bootstrap, Sass and Tailwind CSS.
               </p>
+              <h4>Mahamadou Tirera aka Seyba -- Dynamic Developer</h4>
             </div>
           </div>
         </div>
