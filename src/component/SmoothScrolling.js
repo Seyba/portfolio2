@@ -20,7 +20,7 @@ export const SmoothScrolling = ({children}) => {
         
     },[])
 
-    const classes = `transition-opacity duration-1000 
+    const classes = `transition-opacity delay-200 duration-1000 
     ${isVisible ? "opacity-100, " : "opacity-0"}`
   return (
     <div ref={ref} className={classes}>

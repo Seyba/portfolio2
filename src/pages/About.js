@@ -50,6 +50,8 @@ export const About = () => {
                   I have professional experience in customer service, in teaching and hospitality.
                   I am proficient in JavaScript, HTML/CSS, React, Firebase, bootstrap, Sass and Tailwind CSS.
                 </p>
+              </SmoothScrolling>
+              <SmoothScrolling>
                 <h4 className="text-xl font-semibold tracking-tight leading-9">Mahamadou Tirera aka Seyba -- Dynamic Developer</h4>
               </SmoothScrolling>
             </div>
