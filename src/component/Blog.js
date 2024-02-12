@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { SmoothScrolling } from './SmoothScrolling'
 
 export const Blog = () => {
     const blogs = [
@@ -10,10 +11,14 @@ export const Blog = () => {
   return (
     <div>
         <div className="mt-4 flex justify-center">
-            <p className="text-base font-light">From Blog</p>
+            <SmoothScrolling>
+                <p className="text-base font-light">From Blog</p>
+            </SmoothScrolling>
         </div>
         <div className="flex justify-center mx-4">
-            <h2 className="text-5xl text-center font-bold py-12">I Share my thoughts on design</h2>
+            <SmoothScrolling>
+                <h2 className="text-5xl text-center font-bold py-12">I Share my thoughts on design</h2>
+            </SmoothScrolling>
         </div>
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-3 md:grid-cols-2">
             {
@@ -21,7 +26,7 @@ export const Blog = () => {
                     return(
                         <div key={blog.id} className="group relative">
                             <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-t-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                                <img src={blog.image} alt="blog" className="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
+                                    <img src={blog.image} alt="blog" className="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
                             </div>
                             <div className="bg-zinc-800 p-8">
                                 <Link to={`${blog.link}`}>
@@ -30,10 +35,14 @@ export const Blog = () => {
                                     </button>
                                 </Link>
                                 <div>
-                                    <h4 className="text-xl font-semibold my-4">{blog.content}</h4>
+                                    <SmoothScrolling>
+                                        <h4 className="text-xl font-semibold my-4">{blog.content}</h4>
+                                    </SmoothScrolling>
                                 </div>
                                 <div className="mt-8">
-                                    <p className="text-sm font-thin text-zinc-500">{blog.date}</p>
+                                    <SmoothScrolling>
+                                        <p className="text-sm font-thin text-zinc-500">{blog.date}</p>
+                                    </SmoothScrolling>
                                 </div>
                             </div>
                         </div>
