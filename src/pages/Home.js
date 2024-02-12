@@ -227,7 +227,9 @@ export const Home = () => {
       </div>
       <div className="mt-16 sMax-width">
         <div className="flex justify-center">
-          <h2 className="text-lg font-medium">Core Services</h2>
+          <SmoothScrolling>
+            <h2 className="text-lg font-medium">Core Services</h2>
+          </SmoothScrolling>
         </div>
         <div className="service-grid">
           <div className="icon-box">
@@ -248,8 +250,12 @@ export const Home = () => {
               </div>
             </div>
             <div className="box-padding">
-              <h3 className="box-title">Front-End</h3>
-              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Strong foundation in front-end technologies, creating responsive and visually appealing user interfaces.</p>
+              <SmoothScrolling>
+                <h3 className="box-title">Front-End</h3>  
+              </SmoothScrolling>
+              <SmoothScrolling>
+                <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Strong foundation in front-end technologies, creating responsive and visually appealing user interfaces.</p>
+              </SmoothScrolling>
             </div>
           </div>
           <div className="icon-box">
@@ -268,8 +274,12 @@ export const Home = () => {
               </div>
             </div>
             <div className="box-padding">
-              <h3 className="box-title">Back-End</h3>
-              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Designed and implemented RESTful APIs, ensuring seamless communication between client and server.</p>
+              <SmoothScrolling>
+                <h3 className="box-title">Back-End</h3>
+              </SmoothScrolling>
+              <SmoothScrolling>
+                <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Designed and implemented RESTful APIs, ensuring seamless communication between client and server.</p>
+              </SmoothScrolling>
             </div>
           </div>
           <div className="icon-box">
@@ -287,8 +297,12 @@ export const Home = () => {
               </div>
             </div>
             <div className="box-padding">
-              <h3 className="box-title">Full-Stack </h3>
-              <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Experienced in building dynamic and interactive web applications using React and Node JS.</p>
+              <SmoothScrolling>
+                <h3 className="box-title">Full-Stack </h3>
+              </SmoothScrolling>
+              <SmoothScrolling>
+                <p className="text-slate-300 text-lg leading-7 py-2 tracking-wide">Experienced in building dynamic and interactive web applications using React and Node JS.</p>
+              </SmoothScrolling>
             </div>
           </div>
         </div>
@@ -296,9 +310,15 @@ export const Home = () => {
       <div className="mt-16 main-wrapper">
         <div className="md:grid grid-cols-2 place-items-center gap-2">
           <div className="max-w-md text-left">
-            <h2 className="text-lg font-semibold tracking-wide mb-4">Why work with me</h2>
-            <h3 className="text-5xl font-bold mb-4 tracking-loose">Top five reasons to work with me.</h3>
-            <h4 className="text-2xl leading-9 tracking-wide font-normal text-slate-200 mb-4">Let's bring your ideas to life!</h4>
+            <SmoothScrolling>
+              <h2 className="text-lg font-semibold tracking-wide mb-4">Why work with me</h2>
+            </SmoothScrolling>
+            <SmoothScrolling>
+              <h3 className="text-5xl font-bold mb-4 py-2 tracking-loose">Top five reasons to work with me.</h3>
+            </SmoothScrolling>
+            <SmoothScrolling>
+              <h4 className="text-2xl leading-9 tracking-wide font-normal text-slate-200 py-2 mb-4">Let's bring your ideas to life!</h4>
+            </SmoothScrolling>
             <div className="flex flex-wrap">
               <div className="flex ">
                 <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3">
