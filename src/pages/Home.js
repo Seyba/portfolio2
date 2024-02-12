@@ -4,6 +4,7 @@ import { SeyCarousel } from '../component/SeyCarousel'
 import { Carousel } from 'antd';
 import { ContactForm } from '../component/ContactForm'
 import { Blog } from '../component/Blog'
+import { SmoothScrolling } from '../component/SmoothScrolling';
 
 export const Home = () => {
   const [rightText, setRightText] = useState('')
@@ -351,101 +352,126 @@ export const Home = () => {
 
       <div className="mt-16 main-wrapper">
         <div className="md:grid grid-cols-2 place-items-center gap-2">
-          <div className="">
-            <img src="/images/port.jpg" width="600" className="profile-pic " alt="profile"/>
-          </div>
-          <div className="">
+          <SmoothScrolling>
             <div className="">
-              <h3 className="text-slate-200 text-3xl tracking-wider font-medium py-4 ">Skills</h3>
+              <img src="/images/port.jpg" width="600" className="profile-pic " alt="profile"/>
             </div>
-            <div className="my-4">
-              <h2 className="text-5xl text-zinc-300 font-semibold tracking-wide">My super skills for your project!</h2>
-            </div>
+          </SmoothScrolling>
+          
+          <div className="">
+            <SmoothScrolling>
+              <div className="">
+                <h3 className="text-slate-200 text-3xl tracking-wider font-medium py-4 ">Skills</h3>
+              </div>
+            </SmoothScrolling>
+            <SmoothScrolling>
+              <div className="my-4">
+                <h2 className="text-5xl text-zinc-300 font-semibold tracking-wide">My super skills for your project!</h2>
+              </div>
+            </SmoothScrolling>
             <div>
               <h3 className="text-3xl text-gray-400 font-thin tracking-wide py-4">MERN stack tech tools</h3>
             </div>
             
             <div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>NodeJS</div>
-                  <div>80%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>NodeJS</div>
+                    <div>80%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>SQL</div>
-                  <div>50%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '50%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>SQL</div>
+                    <div>50%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '50%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>ReactJS</div>
-                  <div>85%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '85%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>ReactJS</div>
+                    <div>85%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '85%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>ExpressJS</div>
-                  <div>80%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>ExpressJS</div>
+                    <div>80%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>MongoDB</div>
-                  <div>70%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>MongoDB</div>
+                    <div>70%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>HTML CSS</div>
-                  <div>80%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>HTML CSS</div>
+                    <div>80%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '80%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>Bootstrap</div>
-                  <div>70%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>Bootstrap</div>
+                    <div>70%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div className="mb-4">
-                <div className="skills-text">
-                  <div>Tailwind CSS</div>
-                  <div>50%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '50%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>Tailwind CSS</div>
+                    <div>50%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '50%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
               <div>
-                <div className="skills-text">
-                  <div>Firebase</div>
-                  <div>70%</div>
-                </div>
-                <div className="skills-wrapper">
-                  <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
-                </div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>Firebase</div>
+                    <div>70%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
               </div>
             </div>
           </div>
