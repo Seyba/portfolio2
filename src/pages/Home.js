@@ -571,9 +571,15 @@ export const Home = () => {
       <div className="mt-12 carousel-bg">
         <div className="flex justify-center text-center leading-9">
           <div className="pt-8">
-            <h4 className="sm:text-lg text-medium tracking-wide font-semibold py-2">What they think</h4>
-            <h2 className="sm:text-5xl text-4xl font-bold  tracking-wider py-2">Testimonials</h2>
-            <p className="sm:text-2xl text-lg text-zinc-500 font-light tracking-wide py-2">Great user experience</p>
+            <SmoothScrolling>
+              <h4 className="sm:text-lg text-medium tracking-wide font-semibold py-2">What they think</h4>
+            </SmoothScrolling>
+            <SmoothScrolling>
+              <h2 className="sm:text-5xl text-4xl font-bold  tracking-wider py-2">Testimonials</h2>
+            </SmoothScrolling>
+            <SmoothScrolling>
+              <p className="sm:text-2xl text-lg text-zinc-500 font-light tracking-wide py-2">Great user experience</p>
+            </SmoothScrolling>
           </div>
         </div>
         <SeyCarousel/>
