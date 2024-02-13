@@ -192,43 +192,46 @@ header {
   background-color: #2a2e3c;
   padding: 0 20px;
 }
-@keyframes scroll {
-	0% {
-		transform: translateY(0);
-    
-	}
-  20% {
-		transform: translateY(20px);
 
-  }
-	30% {
-		transform: translateY(30px);
-	}
+@keyframes scrollDown {
+  0% {
+		transform: translate3d(0px, 0px, 0px);
+	};
+  10% {
+    transform: translate3d(0px, 10px, 0px);
+  };
+  20% {
+		transform: translate3d(0px, 20px, 0px);
+	};
+  30% {
+    transform: translate3d(0px, 30px, 0px);
+  };
   40% {
-		transform: translateY(40px);
-	}
+    transform: translate3d(0px,40px,0px);
+  };
   50% {
-		transform: translateY(50px);
-	}
+    transform: translate3d(0px,50px,0px);
+  };
   60% {
-		transform: translateY(60px);
-	}
+		transform: translate3d(0px, 60px, 0px);
+	};
   70% {
-		transform: translateY(70px);
-	}
+    transform: translate3d(0px, 70px, 0px);
+  }
   80% {
-		transform: translateY(80px);
-	}
+    transform: translate3d(0px,80px,0px);
+  };
   90% {
-		transform: translateY(90px);
-	}
+		transform: translate3d(0px, 90px, 0px);
+	};
   100% {
-		transform: translateY(100px);
-	}
+    transform: translate3d(0px, 100px, 0px);
+  }
+
 }
 
 svg .wheel {
-	animation: scroll ease-out 1.5s infinite;
+	animation: scrollDown ease-out 1.5s infinite; 
 }
 
 .sBtn {
