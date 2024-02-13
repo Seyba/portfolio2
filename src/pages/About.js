@@ -24,7 +24,7 @@ export const About = () => {
           </div>
         </div>    
       </div>
-      <section className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      <section className="relative isolate overflow-hidden bg-gray-900 py-24 lg:py-64 sm:py-32">
         <img src="/images/team.jpg" 
           alt="banner"
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
