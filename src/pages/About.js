@@ -119,16 +119,32 @@ export const About = () => {
             </div>
           </div>
           <div className="px-4 lg:px-16">
-            <h3 className="text-xl text-center font-medium pb-4">EDUCATION</h3>
+            <h3 className="text-xl text-center font-medium pb-4">
+              <SmoothScrolling>
+                EDUCATION
+              </SmoothScrolling>
+            </h3>
             <div 
               className="flex justify-between items-center mt-6 mb-2 border-b border-slate-800 py-2"
             >
               <div>
-                <h4 className="text-lg text-gray-300 font-thin tracking-tight">Per Scholas</h4>
-                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">Google Sponsored Software Engineer Certification</h4>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">
+                  <SmoothScrolling>
+                    Per Scholas
+                  </SmoothScrolling>
+                </h4>
+                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">
+                  <SmoothScrolling>
+                    Google Sponsored Software Engineer Certification
+                  </SmoothScrolling>
+                </h4>
               </div>
               <div>
-                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2023</h3>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">
+                  <SmoothScrolling>
+                    2023
+                  </SmoothScrolling>
+                </h3>
               </div>
             </div>
 
@@ -136,11 +152,23 @@ export const About = () => {
               className="flex justify-between items-center mt-6 mb-2 border-b border-slate-800 py-2"
             >
               <div>
-                <h4 className="text-lg text-gray-300 font-thin tracking-tight">Udemy</h4>
-                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">Javascript | NodeJs | ReactJS Certification</h4>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">
+                  <SmoothScrolling>
+                    Udemy
+                  </SmoothScrolling>
+                </h4>
+                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">
+                  <SmoothScrolling>
+                    Javascript | NodeJs | ReactJS Certification
+                  </SmoothScrolling>
+                </h4>
               </div>
               <div>
-                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2019</h3>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">
+                  <SmoothScrolling>
+                    2019
+                  </SmoothScrolling>
+                </h3>
               </div>
             </div>
 
@@ -148,11 +176,23 @@ export const About = () => {
               className="flex justify-between items-center mt-6 mb-2 border-b border-slate-800 py-2"
             >
               <div>
-                <h4 className="text-lg text-gray-300 font-thin tracking-tight">University of Bamako (MALI)</h4>
-                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">Bachelor in Art</h4>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">
+                  <SmoothScrolling>
+                    University of Bamako (MALI)
+                  </SmoothScrolling>
+                </h4>
+                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">
+                  <SmoothScrolling>
+                    Bachelor in Art
+                  </SmoothScrolling>
+                </h4>
               </div>
               <div>
-                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2007</h3>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">
+                  <SmoothScrolling>
+                    2007
+                  </SmoothScrolling>
+                </h3>
               </div>
             </div>
           </div>
