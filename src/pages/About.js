@@ -40,7 +40,9 @@ export const About = () => {
           <div className="grid grid-cols-4 place-content-center">
             <div></div>
             <div className="col-span-2">
-              <img className="rounded-lg w-30 h-30 object-cover" src="/images/port.jpg" alt="profile"/>
+              <SmoothScrolling>
+                <img className="rounded-lg w-30 h-30 object-cover" src="/images/port.jpg" alt="profile"/>
+              </SmoothScrolling>
             </div>
             <div></div>
           </div>
@@ -62,6 +64,44 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <section>
+        <div className="grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <h3 className="text-lg font-medium pb-4">EXPERIENCE</h3>
+            <div className="mb-6">
+              <h3 className="text-gray-400 ">2019 - Present</h3>
+              <h3 className="text-gray-950 font-semibold">Manager</h3>
+              <h4>Big Dream Farm LLC</h4>
+            </div>
+
+            <div className="mb-6">
+              <h3 className="text-gray-400 ">2019-2016</h3>
+              <h3 className="text-gray-950 font-semibold">Cook</h3>
+              <h4 className="text-gray-400 font-medium text-sm">Dos Caminos</h4>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-lg font-medium pb-4">EDUCATION</h3>
+            <div className="mb-6">
+              <h3 className="text-gray-400">2023</h3>
+              <h4 className="text-gray-950 font-semibold">Google Sponsored Software Engineer Certification</h4>
+              <h4 className="text-gray-400 font-medium text-sm">Per Scholas</h4>
+            </div>
+
+            <div className="mb-6">
+              <h3 className="text-gray-400">2019</h3>
+              <h4 className="text-gray-950 font-semibold">Javascript | NodeJs | ReactJS Certification</h4>
+              <h4 className="text-gray-400 font-medium text-sm">Udemy</h4>
+            </div>
+
+            <div className="mb-6">
+              <h3 className="text-gray-400">2003 - 2007</h3>
+              <h4 className="text-gray-950 font-semibold">Bachelor Degree in Art</h4>
+              <h4 className="tex-gray-400 text-sm">University of Bamako (MALI)</h4>
+            </div>
+          </div>
+        </div>
+      </section>
       
     </>
   )
