@@ -64,20 +64,30 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <section>
-        <div className="grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <h3 className="text-lg font-medium pb-4">EXPERIENCE</h3>
-            <div className="mb-6">
-              <h3 className="text-gray-400 ">2019 - Present</h3>
-              <h3 className="text-gray-950 font-semibold">Manager</h3>
-              <h4>Big Dream Farm LLC</h4>
+      <section className="mt-16 bg-slate-950 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+          <div className="px-4 ">
+            <h3 className="text-xl text-center font-medium pb-4">EXPERIENCE</h3>
+            <div 
+              className="flex justify-between items-center mt-6 mb-6 border-b border-slate-800 py-2"
+            >
+              <div>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">Big Dream Farm LLC</h4>
+                <h3 className="text-xs text-gray-100 font-semibold tracking-wider">Manager</h3>
+              </div>
+              <div>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2019</h3>
+              </div>
             </div>
 
-            <div className="mb-6">
-              <h3 className="text-gray-400 ">2019-2016</h3>
-              <h3 className="text-gray-950 font-semibold">Cook</h3>
-              <h4 className="text-gray-400 font-medium text-sm">Dos Caminos</h4>
+            <div className="mb-6 flex justify-between items-center border-b border-slate-800 py-2">
+              <div>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">Dos Caminos</h4>
+                <h3 className="text-xs text-gray-100 font-semibold tracking-wider">Cook</h3>
+              </div>
+              <div>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2016</h3>
+              </div>
             </div>
           </div>
           <div>
