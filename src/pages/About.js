@@ -24,7 +24,7 @@ export const About = () => {
           </div>
         </div>    
       </div>
-      <section className="relative isolate overflow-hidden bg-gray-900 py-24 lg:sm:py-32">
+      <section className="relative isolate overflow-hidden bg-gray-900 py-24 md:py-64 sm:py-32">
         <img src="/images/team.jpg" 
           alt="banner"
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
@@ -36,11 +36,15 @@ export const About = () => {
         </div>
       </section>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <h2>Image</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 mt-6">
+          <div className="grid grid-cols-4 place-content-center">
+            <div></div>
+            <div className="col-span-2">
+              <img className="rounded-lg w-30 h-30 object-cover" src="/images/port.jpg" alt="profile"/>
+            </div>
+            <div></div>
           </div>
-          <div>
+          <div className="col-span-2">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <SmoothScrolling>
                 <p className="text-xl leading-9 tracking-wide py-12 text-gray-500">

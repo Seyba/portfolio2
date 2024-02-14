@@ -323,7 +323,7 @@ export const Home = () => {
               <div className="flex ">
                 <div className="flex justify-center items-center bg-neutral-800 rounded-full mr-4 py-2 my-3">
                   <div className="rounded-full w-10 h-10 bg-slate-950 p-2 mx-2">
-                    <img src="/images/service-icon-1.png" alt="service" width={30}/>
+                    <img src="/images/service-icon-1.png" alt="service"  width={30}/>
                   </div>
                   <p className="font-base text-slate-300 text-lg tracking-wider pr-4 ">Animations</p>
                 </div>
