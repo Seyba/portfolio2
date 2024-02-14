@@ -64,8 +64,8 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <section className="mt-16 bg-slate-950 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+      <section className="mt-16 bg-slate-950 py-16 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="px-4 ">
             <h3 className="text-xl text-center font-medium pb-4">EXPERIENCE</h3>
             <div 
@@ -90,24 +90,42 @@ export const About = () => {
               </div>
             </div>
           </div>
-          <div>
-            <h3 className="text-lg font-medium pb-4">EDUCATION</h3>
-            <div className="mb-6">
-              <h3 className="text-gray-400">2023</h3>
-              <h4 className="text-gray-950 font-semibold">Google Sponsored Software Engineer Certification</h4>
-              <h4 className="text-gray-400 font-medium text-sm">Per Scholas</h4>
+          <div className="px-4">
+            <h3 className="text-xl text-center font-medium pb-4">EDUCATION</h3>
+            <div 
+              className="flex justify-between items-center mt-6 mb-6 border-b border-slate-800 py-2"
+            >
+              <div>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">Per Scholas</h4>
+                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">Google Sponsored Software Engineer Certification</h4>
+              </div>
+              <div>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2023</h3>
+              </div>
             </div>
 
-            <div className="mb-6">
-              <h3 className="text-gray-400">2019</h3>
-              <h4 className="text-gray-950 font-semibold">Javascript | NodeJs | ReactJS Certification</h4>
-              <h4 className="text-gray-400 font-medium text-sm">Udemy</h4>
+            <div 
+              className="flex justify-between items-center mt-6 mb-6 border-b border-slate-800 py-2"
+            >
+              <div>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">Udemy</h4>
+                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">Javascript | NodeJs | ReactJS Certification</h4>
+              </div>
+              <div>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2019</h3>
+              </div>
             </div>
 
-            <div className="mb-6">
-              <h3 className="text-gray-400">2003 - 2007</h3>
-              <h4 className="text-gray-950 font-semibold">Bachelor Degree in Art</h4>
-              <h4 className="tex-gray-400 text-sm">University of Bamako (MALI)</h4>
+            <div 
+              className="flex justify-between items-center mt-6 mb-6 border-b border-slate-800 py-2"
+            >
+              <div>
+                <h4 className="text-lg text-gray-300 font-thin tracking-tight">University of Bamako (MALI)</h4>
+                <h4 className="text-xs text-gray-100 font-semibold tracking-wider">Bachelor in Art</h4>
+              </div>
+              <div>
+                <h3 className="text-lg text-gray-300 font-thin tracking-tight">2007</h3>
+              </div>
             </div>
           </div>
         </div>
