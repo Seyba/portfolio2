@@ -203,6 +203,9 @@ export const About = () => {
         <Marquee className="bg-zinc-900 h-28">
           <div className="flex justify-between ">
             <div className="mx-8 py-4">
+              <h3 className="text-5xl">JavaScript</h3>
+            </div>
+            <div className="mx-8 py-4">
               <h3 className="text-5xl">ReactJS</h3>
             </div>
             <div className="mx-8 py-4">
