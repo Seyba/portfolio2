@@ -74,7 +74,7 @@ export const About = () => {
               </SmoothScrolling>
             </h3>
             <div 
-              className="flex justify-between items-center mt-6 mb-2 border-b border-slate-800 py-2"
+              className="flex justify-between items-center  border-b border-slate-800 py-4"
             >
               <div className="flex justify-between items-center">
                 <div>
@@ -108,7 +108,7 @@ export const About = () => {
               </div>
             </div>
 
-            <div className="mb-2 flex justify-between items-center border-b border-slate-800 py-2">
+            <div className=" flex justify-between items-center border-b border-slate-800 py-4">
               <div className="flex justify-between items-center">
                 <div>
                   <SmoothScrolling>
@@ -141,7 +141,7 @@ export const About = () => {
               </div>
             </div>
 
-            <div className="mb-2 flex justify-between items-center border-b border-slate-800 py-2">
+            <div className=" flex justify-between items-center border-b border-slate-800 py-4">
               <div className="flex justify-between items-center">
                 <div>
                   <SmoothScrolling>
@@ -181,7 +181,7 @@ export const About = () => {
               </SmoothScrolling>
             </h3>
             <div 
-              className="flex justify-between items-center mt-6 mb-2 border-b border-slate-800 py-2"
+              className="flex justify-between items-center border-b border-slate-800 py-4"
             >
               <div className="flex items-center justify-betwen">
                 <SmoothScrolling>
@@ -214,7 +214,7 @@ export const About = () => {
             </div>
             
             <div 
-              className="flex justify-between items-center mt-6 mb-2 border-b border-slate-800 py-2"
+              className="flex justify-between items-center border-b border-slate-800 py-4"
             >
               <div className="flex items-center justify-betwen">
                 <div>
@@ -249,7 +249,7 @@ export const About = () => {
             </div>
 
             <div 
-              className="flex justify-between items-center mt-6 mb-2 border-b border-slate-800 py-2"
+              className="flex justify-between items-center border-b border-slate-800 py-4"
             >
               <div className="flex justify-between items-center">
                 <div>
