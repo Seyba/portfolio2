@@ -2,6 +2,7 @@ import React from 'react'
 import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
 import { SmoothScrolling } from '../component/SmoothScrolling'
+import Marquee from 'react-fast-marquee'
 
 export const About = () => {
   return (
@@ -36,7 +37,7 @@ export const About = () => {
         </div>
       </section>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-1 mt-6 py-20">
           <div className="grid grid-cols-4 place-content-center">
             <div></div>
             <div className="col-span-2">
@@ -49,7 +50,7 @@ export const About = () => {
           <div className="col-span-2">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <SmoothScrolling>
-                <p className="text-xl leading-9 tracking-wide py-12 text-gray-500">
+                <p className="text-xl leading-9 tracking-wide py-6 text-gray-500">
                   I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.
                   I am passionate about transforming visionary concepts into immersive digital experiences. With expertise in both front and back-end technologies,
                   my mission is to craft solutions that exceed expectations. 
@@ -58,7 +59,7 @@ export const About = () => {
                 </p>
               </SmoothScrolling>
               <SmoothScrolling>
-                <h4 className="text-xl font-semibold tracking-tight leading-9">Mahamadou Tirera aka Seyba -- Dynamic Developer</h4>
+                <h4 className="text-xl font-semibold tracking-tight leading-9">Mahamadou Tirera aka Seyba — Dynamic Developer</h4>
               </SmoothScrolling>
             </div>
           </div>
@@ -198,7 +199,39 @@ export const About = () => {
           </div>
         </div>
       </section>
-      
+      <section>
+        <Marquee className="bg-zinc-900 h-28">
+          <div className="flex justify-between ">
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">ReactJS</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">MongoDB</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">NodeJS</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">ExpressJS</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">HTML/CSS</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">Tailwind CSS</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">Bootstrap</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">Firebase</h3>
+            </div>
+            <div className="mx-8 py-4">
+              <h3 className="text-5xl">SQL</h3>
+            </div>
+          </div>
+        </Marquee>
+      </section>
     </>
   )
 }
