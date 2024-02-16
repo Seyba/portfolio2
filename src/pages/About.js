@@ -286,7 +286,8 @@ export const About = () => {
         </div>
       </section>
       <section>
-        <Marquee className="bg-zinc-900 h-28">
+        <SmoothScrolling>
+          <Marquee className="bg-zinc-900 h-28">
           <div className="flex justify-between ">
             <div className="mx-8 py-4">
               <h3 className="text-5xl">Javascript</h3>
@@ -319,7 +320,8 @@ export const About = () => {
               <h3 className="text-5xl">SQL</h3>
             </div>
           </div>
-        </Marquee>
+          </Marquee>
+        </SmoothScrolling>
       </section>
     </>
   )
