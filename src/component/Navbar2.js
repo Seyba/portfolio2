@@ -96,8 +96,6 @@ export const Navbar2 = (props) => {
                                             <Link onClick={toggleCart} className="text-slate-300 mt-4 tex-md font-bold bg-gray-900 hover:bg-gray-800 py-2 px-6 rounded-md">Go To Home</Link>
                                         </div>
                                     </div>
-                                    
-                                    
                                 </div>
                                 
                             </Dialog.Panel>
