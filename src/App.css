@@ -123,7 +123,6 @@ header {
   right: 0%;
   bottom: 0%;
   z-index: 998;
-  display: none;
   opacity: 0;
   padding-right: 5%;
   padding-left: 5%;
@@ -141,12 +140,13 @@ header {
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   background-color: #10151b;
-  transition: 0.2s ease-out;
+  visibility: hidden;
 }
 .menu-wrapper-open {
   display: flex;
   opacity: 1;
-  transition: 0.2s ease-out;
+  transition: all 2s;
+  visibility: visible;
 }
 .menu-wrapper li {
   list-style-type: none;

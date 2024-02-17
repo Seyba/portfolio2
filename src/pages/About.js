@@ -3,6 +3,7 @@ import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
 import { SmoothScrolling } from '../component/SmoothScrolling'
 import Marquee from 'react-fast-marquee'
+import SeyModal from '../component/SeyModal'
 
 export const About = () => {
   return (
@@ -322,6 +323,11 @@ export const About = () => {
           </div>
           </Marquee>
         </SmoothScrolling>
+      </section>
+      <section>
+        <div>
+          <h3>Test</h3>
+        </div>
       </section>
     </>
   )

@@ -106,8 +106,11 @@ export const Navbar2 = (props) => {
                 </div>
             </Dialog>
         </Transition.Root>
-        <div className={`menu-wrapper ${menuWrapperOpen? "menu-wrapper-open" : "" }`}>
-            <ul>
+        <div 
+            className={`menu-wrapper ${menuWrapperOpen? "menu-wrapper-open" : "" }`}
+        >
+            
+            <ul className="text-center">
                 <li>
                     <Link onClick={toggleMenu} className="text-slate-50" to="/">Home</Link>
                 </li>
@@ -124,7 +127,6 @@ export const Navbar2 = (props) => {
                     <Link onClick={toggleMenu} className="text-slate-50" to="/projects">Projects</Link>
                 </li>
             </ul>
-
         </div>
     </>
   )
