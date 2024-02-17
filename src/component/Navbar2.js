@@ -129,7 +129,7 @@ export const Navbar2 = (props) => {
                     <div className="flex justify-center items-center mb-4">
                         <h3 className="text-xl font-light ">FOLLOW ME</h3>
                     </div>
-                    <div className="flex justify-center items-center">    
+                    <div className="flex justify-center items-center wrapper-icons">    
                         <div className="mr-3">
                             <Link className="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
