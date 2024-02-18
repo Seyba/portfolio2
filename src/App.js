@@ -7,6 +7,7 @@ import { Blog } from './pages/Blog'
 import { Contact } from './pages/Contact';
 import { Footer } from './pages/Footer';
 import {Projects} from './pages/Projects';
+import { Project } from './pages/Project';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/projects/project/:id" element={<Project/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>      
