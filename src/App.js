@@ -6,6 +6,7 @@ import { About } from './pages/About'
 import { Blog } from './pages/Blog'
 import { Contact } from './pages/Contact';
 import { Footer } from './pages/Footer';
+import { NotFoundPage } from './pages/NotFoundPage';
 import {Projects} from './pages/Projects';
 import { Project } from './pages/Project';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/projects/project/:id" element={<Project/>}/>
+          <Route path="*" element={<NotFoundPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>      
