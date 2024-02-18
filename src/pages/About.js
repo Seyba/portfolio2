@@ -324,11 +324,6 @@ export const About = () => {
           </Marquee>
         </SmoothScrolling>
       </section>
-      <section>
-        <div>
-          <h3>Test</h3>
-        </div>
-      </section>
     </>
   )
 }

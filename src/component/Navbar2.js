@@ -126,8 +126,8 @@ export const Navbar2 = (props) => {
                     </li>
                 </ul>
                 <div className="mb-0 mt-40">
-                    <div className="flex justify-center items-center mb-4">
-                        <h3 className="text-xl font-light ">FOLLOW ME</h3>
+                    <div className="flex justify-center items-center mb-6">
+                        <h3 className="text-lg leading-2 font-light tracking-wide">FOLLOW ME</h3>
                     </div>
                     <div className="flex justify-center items-center wrapper-icons">    
                         <div className="mr-3">
