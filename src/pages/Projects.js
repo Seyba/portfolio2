@@ -25,6 +25,27 @@ export const Projects = () => {
             title:'Simple Crypto Currencies App',
             address: 'https://comfy-smakager-0be15f.netlify.app/',
             img: ''
+        },
+        {
+            id: 'p4c',
+            name: 'Star Wars',
+            title:'Star Wars Starships App',
+            address: 'https://ephemeral-dodol-c5b7d0.netlify.app/',
+            img: ''
+        },
+        {
+            id: 'p5c',
+            name: 'Tweet',
+            title:'Tweet App',
+            address: 'https://seyba-twitter-app.onrender.com/tweets',
+            img: ''
+        },
+        {
+            id: 'p5c',
+            name: 'DevShop',
+            title:'General Merchandise Ecommerce Site',
+            address: 'https://devshop-n1ez.onrender.com/',
+            img: ''
         }
     ]
   return (
