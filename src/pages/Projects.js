@@ -10,13 +10,13 @@ export const Projects = () => {
             name: 'Boutique',
             title:'Beauty ecommerce website',
             address: 'https://boutique-nay4.onrender.com/',
-            img: ''
+            img: '/images/boutique.png'
         },
         {
             id: 'p2c',
             name: 'Tic Tac Toe',
             title:'Classic Javascript Tic Tac Toe Game',
-            address: 'https://boutique-nay4.onrender.com/',
+            address: 'https://seyba.github.io/TicTacToe/',
             img: ''
         },
         {
