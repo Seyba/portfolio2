@@ -1,8 +1,32 @@
 import React from 'react'
 import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
+import { ProjectItem } from '../component/ProjectItem'
 
 export const Projects = () => {
+    const projectData = [
+        {
+            id: 'p1c',
+            name: 'Boutique',
+            title:'Beauty ecommerce website',
+            address: 'https://boutique-nay4.onrender.com/',
+            img: ''
+        },
+        {
+            id: 'p2c',
+            name: 'Tic Tac Toe',
+            title:'Classic Javascript Tic Tac Toe Game',
+            address: 'https://boutique-nay4.onrender.com/',
+            img: ''
+        },
+        {
+            id: 'p3c',
+            name: 'Crypto App',
+            title:'Simple Crypto Currencies App',
+            address: 'https://comfy-smakager-0be15f.netlify.app/',
+            img: ''
+        }
+    ]
   return (
     <>
         <div>  
@@ -26,7 +50,9 @@ export const Projects = () => {
                 </div>
                 
             </div>
-                
+            <div>
+                {projectData.map(project => <ProjectItem key={project.id} projects={project}/>)}
+            </div>
         </div>
     </>
   )
