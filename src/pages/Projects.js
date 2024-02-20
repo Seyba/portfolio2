@@ -6,46 +6,46 @@ import { ProjectItem } from '../component/ProjectItem'
 export const Projects = () => {
     const projectData = [
         {
-            id: 'p1c',
+            id: 'bouti',
             name: 'Boutique',
             title:'Beauty ecommerce website',
             address: 'https://boutique-nay4.onrender.com/',
             img: '/images/boutique.png'
         },
         {
-            id: 'p2c',
+            id: 'tictac',
             name: 'Tic Tac Toe',
             title:'Classic Javascript Tic Tac Toe Game',
             address: 'https://seyba.github.io/TicTacToe/',
-            img: ''
+            img: '/images/tictactoe.png'
         },
         {
-            id: 'p3c',
+            id: 'crypto',
             name: 'Crypto App',
             title:'Simple Crypto Currencies App',
             address: 'https://comfy-smakager-0be15f.netlify.app/',
             img: ''
         },
         {
-            id: 'p4c',
+            id: 'star',
             name: 'Star Wars',
             title:'Star Wars Starships App',
             address: 'https://ephemeral-dodol-c5b7d0.netlify.app/',
             img: ''
         },
         {
-            id: 'p5c',
+            id: 'tweet',
             name: 'Tweet',
             title:'Tweet App',
             address: 'https://seyba-twitter-app.onrender.com/tweets',
-            img: ''
+            img: '/images/tweet.png'
         },
         {
-            id: 'p5c',
+            id: 'devshop',
             name: 'DevShop',
             title:'General Merchandise Ecommerce Site',
             address: 'https://devshop-n1ez.onrender.com/',
-            img: ''
+            img: '/images/devShop.png'
         }
     ]
   return (
