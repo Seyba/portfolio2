@@ -4,7 +4,7 @@ export const ProjectItem = (props) => {
     const { id, title, img, desc, url} = props.projects
     return(
         <div>
-            <div className="bg-zinc-800 rounded-lg mb-3">
+            <div className="project-bg rounded-lg mb-3 p-8 ">
                 <Link to={`/projects/project/${id}`}>
                     <img 
                         src={img} 

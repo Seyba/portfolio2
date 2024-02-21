@@ -37,6 +37,9 @@ body {
 .main-bg {
   background-color: #12141d;
 }
+.project-bg {
+  background-color: var(--color-20222e);
+}
 .sMax-width {
   max-width: 80%;
   margin-right: auto;
