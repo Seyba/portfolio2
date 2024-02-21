@@ -24,14 +24,14 @@ export const Projects = () => {
             name: 'Crypto App',
             title:'Simple Crypto Currencies App',
             address: 'https://comfy-smakager-0be15f.netlify.app/',
-            img: ''
+            img: '/images/crypto.png'
         },
         {
             id: 'star',
             name: 'Star Wars',
             title:'Star Wars Starships App',
             address: 'https://ephemeral-dodol-c5b7d0.netlify.app/',
-            img: ''
+            img: '/images/starwars.png'
         },
         {
             id: 'tweet',
@@ -71,7 +71,7 @@ export const Projects = () => {
                 </div>
                 
             </div>
-            <div>
+            <div className="grid grid-cols-1 mx-10 md:mx-32 md:grid-cols-2 gap-4">
                 {projectData.map(project => <ProjectItem key={project.id} projects={project}/>)}
             </div>
         </div>
