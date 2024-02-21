@@ -71,7 +71,7 @@ export const Projects = () => {
                 </div>
                 
             </div>
-            <div className="grid grid-cols-1 mx-10 md:mx-32 md:grid-cols-2 gap-4">
+            <div className="mt-6 grid grid-cols-1 mx-10 md:mx-32 md:grid-cols-2 gap-4">
                 {projectData.map(project => <ProjectItem key={project.id} projects={project}/>)}
             </div>
         </div>
