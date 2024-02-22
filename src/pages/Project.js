@@ -8,7 +8,7 @@ export const Project = (props) => {
         <div className="py-8">
             <section className="md:grid grid-cols-1 gap-4 mb-4 mx-6 md:mx-32">
                 <div className="bg-dark  mb-4">
-                    <h3 className="text-white">Project {id} </h3>
+                    <h3 className="text-white font-semibold">Project {id} </h3>
                     <h4>Title</h4>
                     <div className="w-60 h-60">
                         <Link to={`${id}`}>
