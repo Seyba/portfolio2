@@ -51,7 +51,6 @@ export const Projects = () => {
   return (
     <>
         <div>  
-            
             <div className="banner-wrapper">
                 <div className="banner">
                     <div className="py-2">
