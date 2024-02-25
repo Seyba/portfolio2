@@ -4,7 +4,7 @@ import { Banner } from "../component/Banner"
 export const Project = (props) => {
     const params = useParams()
     const { id } = params
-
+    const { title, name, address, image } = props
     return(
         <div className="py-8">
             <Banner/>
@@ -16,7 +16,8 @@ export const Project = (props) => {
                         <Link to={`${id}`}>
                             project image
                         </Link>
-                    </div>                    
+                    </div>
+                    <h4 className="text-red-600">{title} </h4>                   
                 </div>
             </section>
         </div>
