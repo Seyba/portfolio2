@@ -18,7 +18,6 @@ export const BreadCrumb = (props) => {
                 <div className="text-slate-300 font-semibold">
                     {title}
                 </div>
-                    
             </div>
         </div>
     </div>

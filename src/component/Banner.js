@@ -2,7 +2,7 @@ import React from 'react'
 import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
 
-export const Banner = () => {
+export const Banner = (props) => {
   return (
     <div className="banner-wrapper">
         <div className="banner">

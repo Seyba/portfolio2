@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
-
+import { Banner } from "./Banner"
 export const ProjectItem = (props) => {
     const { id, name, title, address, img} = props.projects
     return(
-        <div>
+        <div className="flex justify-center md:p-4 px-0">
             <div className="project-bg rounded-sm mb-3 p-8 ">
                 <Link to={`/projects/project/${id}`}>
                     <img 
