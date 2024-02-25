@@ -14,7 +14,7 @@ export const ProjectItem = (props) => {
                 </Link>
                 <h3 className="text-white text-2xl mt-6 py-2 tracking-widest font-semibold">{name}</h3>
                 <h3 className="text-gray-500 text-lg font-light leading-9 tracking-tight">{title}</h3>
-                <button className="mt-6 bg-slate-700 rounded-md px-6 font-light py-6">
+                <button className="mt-6 bg-slate-700 rounded-md px-6 font-light py-4 hover:text-slate-40    0 hover:bg-slate-800">
                     <Link to={`${address}`}>
                         VIEW PROJECT
                     </Link> 
