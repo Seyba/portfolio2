@@ -1,10 +1,17 @@
+import { useContext } from "react"
 import { Link, useParams } from "react-router-dom"
 import { Banner } from "../component/Banner"
+import { PortfolioContext } from "../context/portfolioContext"
 
 export const Project = (props) => {
+    const ctx = useContext(PortfolioContext)
+    const { projectData } = ctx
     const params = useParams()
     const { id } = params
-    const { title, name, address, image } = props
+    const idx = projectData.findIndex(i => i.id === id)
+    const project = projectData[idx]
+
+    const { title, name, address, image } = project
     return(
         <div className="py-8">
             <Banner/>
@@ -17,7 +24,8 @@ export const Project = (props) => {
                             project image
                         </Link>
                     </div>
-                    <h4 className="text-red-600">{title} </h4>                   
+                    <h4 className="text-red-600">{title} </h4> 
+                    <h4 className="text-red-600">{name} </h4>                   
                 </div>
             </section>
         </div>
