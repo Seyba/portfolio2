@@ -2,52 +2,52 @@ import React from 'react'
 import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
 import { ProjectItem } from '../component/ProjectItem'
-
+import { projectData } from '../utils/data'
 export const Projects = () => {
-    const projectData = [
-        {
-            id: 'bouti',
-            name: 'Boutique',
-            title:'Beauty ecommerce website',
-            address: 'https://boutique-nay4.onrender.com/',
-            img: '/images/boutique.png'
-        },
-        {
-            id: 'tictac',
-            name: 'Tic Tac Toe',
-            title:'Classic Javascript Tic Tac Toe Game',
-            address: 'https://seyba.github.io/TicTacToe/',
-            img: '/images/tictactoe.png'
-        },
-        {
-            id: 'crypto',
-            name: 'Crypto App',
-            title:'Simple Crypto Currencies App',
-            address: 'https://comfy-smakager-0be15f.netlify.app/',
-            img: '/images/crypto.png'
-        },
-        {
-            id: 'star',
-            name: 'Star Wars',
-            title:'Star Wars Starships App',
-            address: 'https://ephemeral-dodol-c5b7d0.netlify.app/',
-            img: '/images/starwars.png'
-        },
-        {
-            id: 'tweet',
-            name: 'Tweet',
-            title:'Tweet App',
-            address: 'https://seyba-twitter-app.onrender.com/tweets',
-            img: '/images/tweet.png'
-        },
-        {
-            id: 'devshop',
-            name: 'DevShop',
-            title:'General Merchandise Ecommerce Site',
-            address: 'https://devshop-n1ez.onrender.com/',
-            img: '/images/devShop.png'
-        }
-    ]
+    // const projectData = [
+    //     {
+    //         id: 'bouti',
+    //         name: 'Boutique',
+    //         title:'Beauty ecommerce website',
+    //         address: 'https://boutique-nay4.onrender.com/',
+    //         img: '/images/boutique.png'
+    //     },
+    //     {
+    //         id: 'tictac',
+    //         name: 'Tic Tac Toe',
+    //         title:'Classic Javascript Tic Tac Toe Game',
+    //         address: 'https://seyba.github.io/TicTacToe/',
+    //         img: '/images/tictactoe.png'
+    //     },
+    //     {
+    //         id: 'crypto',
+    //         name: 'Crypto App',
+    //         title:'Simple Crypto Currencies App',
+    //         address: 'https://comfy-smakager-0be15f.netlify.app/',
+    //         img: '/images/crypto.png'
+    //     },
+    //     {
+    //         id: 'star',
+    //         name: 'Star Wars',
+    //         title:'Star Wars Starships App',
+    //         address: 'https://ephemeral-dodol-c5b7d0.netlify.app/',
+    //         img: '/images/starwars.png'
+    //     },
+    //     {
+    //         id: 'tweet',
+    //         name: 'Tweet',
+    //         title:'Tweet App',
+    //         address: 'https://seyba-twitter-app.onrender.com/tweets',
+    //         img: '/images/tweet.png'
+    //     },
+    //     {
+    //         id: 'devshop',
+    //         name: 'DevShop',
+    //         title:'General Merchandise Ecommerce Site',
+    //         address: 'https://devshop-n1ez.onrender.com/',
+    //         img: '/images/devShop.png'
+    //     }
+    // ]
   return (
     <>
         <div>  
