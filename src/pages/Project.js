@@ -2,6 +2,8 @@ import { useContext } from "react"
 import { Link, useParams } from "react-router-dom"
 import { Banner } from "../component/Banner"
 import { PortfolioContext } from "../context/portfolioContext"
+import { ContactPartial } from "../component/ContactPartial"
+import { ContactForm } from "../component/ContactForm"
 
 export const Project = (props) => {
     const ctx = useContext(PortfolioContext)
@@ -20,25 +22,39 @@ export const Project = (props) => {
                     <div className="my-12">
                         <img src={img} alt="project" className="max-w-full h-auto rounded-t-md"/>
                     </div>
-                    <div>
+                    <div className="mb-6">
                         <h4 className="text-lg font-semibold py-2">Summary</h4>
-                        <p className="text-base font-light text-gray-300 tracking-wide leading-6">
+                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
                             Discover how we gave this startup a fresh visual start. 
                             With over 50 team members, 5000+ users and 27M, 
                             it was time to replace their outdated look with a design that matched their ambitions.
                         </p>
-                        <p className="text-base font-light text-gray-300 tracking-wide leading-6">
+                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
                             Fortun is the Berlin-based Series A startup on its way to becoming the leading finance platform for SMEs, 
                             freelancers, and self-employed persons.
                         </p>
                     </div>
+                    <div>
+                        <h4 className="text-lg font-semibold py-2">What I've done</h4>
+                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">1. Strategic Discovery</p>
+                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">2. Web application redesign & optimization</p>
+                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">3. Mobile application & optimization</p>
+                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">4. Landing page redesign & optimization</p>
+                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">5. Component-based UI-kit</p>
+                    </div>
+                    <div>
+                        <ContactForm/>
+                    </div>
+                    
                     <h3 className="text-white font-semibold"></h3>
-                    <h4>Title</h4>
                     
                     <h4 className="text-red-600"></h4> 
                     <h4 className="text-red-600"></h4>                   
                 </div>
             </section>
+            <div>
+                <ContactPartial/>
+            </div>
         </div>
     )
 }
