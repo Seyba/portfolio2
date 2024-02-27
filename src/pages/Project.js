@@ -11,21 +11,32 @@ export const Project = (props) => {
     const idx = projectData.findIndex(i => i.id === id)
     const project = projectData[idx]
 
-    const { title, name, address, image } = project
+    const { title, name, address, img } = project
     return(
         <div className="py-8">
             <Banner/>
-            <section className="md:grid grid-cols-1 gap-4 mb-4 mx-6 md:mx-32">
+            <section className="mt-6 py-6 md:grid grid-cols-1 gap-4 mb-4 mx-4 md:mx-32 lg:mx-60 xl:mx-80">
                 <div className="bg-dark  mb-4">
-                    <h3 className="text-white font-semibold">Project {id} </h3>
-                    <h4>Title</h4>
-                    <div className="w-60 h-60">
-                        <Link to={`${id}`}>
-                            project image
-                        </Link>
+                    <div className="my-12">
+                        <img src={img} alt="project" className="max-w-full h-auto rounded-t-md"/>
                     </div>
-                    <h4 className="text-red-600">{title} </h4> 
-                    <h4 className="text-red-600">{name} </h4>                   
+                    <div>
+                        <h4 className="text-lg font-semibold py-2">Summary</h4>
+                        <p>
+                            Discover how we gave this startup a fresh visual start. 
+                            With over 50 team members, 5000+ users and 27M, 
+                            it was time to replace their outdated look with a design that matched their ambitions.
+                        </p>
+                        <p>
+                            Fortun is the Berlin-based Series A startup on its way to becoming the leading finance platform for SMEs, 
+                            freelancers, and self-employed persons.
+                        </p>
+                    </div>
+                    <h3 className="text-white font-semibold"></h3>
+                    <h4>Title</h4>
+                    
+                    <h4 className="text-red-600"></h4> 
+                    <h4 className="text-red-600"></h4>                   
                 </div>
             </section>
         </div>
