@@ -4,7 +4,8 @@ export const projectData = [
         name: 'Boutique',
         title:'Beauty ecommerce website',
         address: 'https://boutique-nay4.onrender.com/',
-        img: '/images/boutique.png'
+        img: '/images/boutique.png',
+        summary: "Boutique, I got this inspiration from webflow Ecommerce website called BOUTIQUE, I used Mongodb database to store users data and protect them with bcrypt."
     },
     {
         id: 'c9zk',
