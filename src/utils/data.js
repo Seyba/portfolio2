@@ -50,7 +50,7 @@ export const projectData = [
         title:'General Merchandise Ecommerce Site',
         address: 'https://devshop-n1ez.onrender.com/',
         img: '/images/devShop.png',
-        summary: "",
+        summary: "DevShop is a Full-stack Mern ecommerce site. It is bootstrap styled and has a separate admin front-end page. The back-end is running on express and nodejs server. User can browse products, add or remove to his/her cart and proceed to the checkout, however the stripe transaction is not hooked to the site yet. Version 2 will cover that and the responsiveness.",
         techStack: []
     }
 

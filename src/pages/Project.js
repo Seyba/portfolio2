@@ -30,8 +30,7 @@ export const Project = (props) => {
                             it was time to replace the outdated look with a design that matched clients and users ambitions.
                         </p>
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
-                            Fortun is the Berlin-based Series A startup on its way to becoming the leading finance platform for SMEs, 
-                            freelancers, and self-employed persons.
+                            {summary}
                         </p>
                     </div>
                     <div>
@@ -42,6 +41,14 @@ export const Project = (props) => {
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">4. Landing page redesign & optimization</p>
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">5. Component-based UI-kit</p>
                     </div>
+
+                    <h4 className="text-lg font-semibold py-2">Tech Stacks</h4>
+                    <ol>
+                        {
+                            techStack.map((stack, i) => <li className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">{i+1}. { stack}</li>)
+                        }  
+                    </ol>
+                    
                     <div>
                         <ContactForm/>
                     </div>
