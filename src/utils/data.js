@@ -41,8 +41,8 @@ export const projectData = [
         title:'Tweet App',
         address: 'https://seyba-twitter-app.onrender.com/tweets',
         img: '/images/tweet.png',
-        summary: "",
-        techStack: []
+        summary: "Simple Full CRUD Twitter App. JSX View engine get data from Mongodb through Nodejs and ExpressJs server.",
+        techStack: ["MongoDB", "NodeJS", "JSX View Engine", "ExpressJS", "Web application design", "Tailwind CSS"]
     },
     {
         id: 't9sd',
@@ -51,7 +51,7 @@ export const projectData = [
         address: 'https://devshop-n1ez.onrender.com/',
         img: '/images/devShop.png',
         summary: "DevShop is a Full-stack Mern ecommerce site. It is bootstrap styled and has a separate admin front-end page. The back-end is running on express and nodejs server. User can browse products, add or remove to his/her cart and proceed to the checkout, however the stripe transaction is not hooked to the site yet. Version 2 will cover that and the responsiveness.",
-        techStack: []
+        techStack: ['ReactJS', 'NodeJS', 'Landing page design', 'Antdesign', 'Marquee','MondoDB', 'Redux', 'Component based UI-kit']
     }
 
 ]
