@@ -13,7 +13,7 @@ export const Project = (props) => {
     const idx = projectData.findIndex(i => i.id === id)
     const project = projectData[idx]
 
-    const { title, name, address, img } = project
+    const { title, name, address, img, summary, techStack } = project
     return(
         <div className="py-8">
             <Banner/>
@@ -25,9 +25,9 @@ export const Project = (props) => {
                     <div className="mb-6">
                         <h4 className="text-lg font-semibold py-2">Summary</h4>
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
-                            Discover how we gave this startup a fresh visual start. 
+                            Discover how I give projects a fresh visual start. 
                             With over 50 team members, 5000+ users and 27M, 
-                            it was time to replace their outdated look with a design that matched their ambitions.
+                            it was time to replace the outdated look with a design that matched clients and users ambitions.
                         </p>
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
                             Fortun is the Berlin-based Series A startup on its way to becoming the leading finance platform for SMEs, 
