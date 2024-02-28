@@ -5,7 +5,8 @@ export const projectData = [
         title:'Beauty ecommerce website',
         address: 'https://boutique-nay4.onrender.com/',
         img: '/images/boutique.png',
-        summary: "Boutique, I got this inspiration from webflow Ecommerce website called BOUTIQUE, I used Mongodb database to store users data and protect them with bcrypt."
+        summary: "Boutique, I got this inspiration from webflow Ecommerce website called BOUTIQUE, I used Mongodb database to store users data and protect them with bcrypt. Only Admin users can upload, update and delete products in the application or block a user.",
+        techStack:['Authenticate users with bcrypt', 'MongoDB database for users and products','ExpressJs and NodeJs for backend','ReactJs for front-end','Bootstrap and tailwind css for styling']
     },
     {
         id: 'c9zk',
