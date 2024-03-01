@@ -6,6 +6,7 @@ import { ContactPartial } from "../component/ContactPartial"
 import { ContactForm } from "../component/ContactForm"
 import Meta from "../component/Meta"
 import { BreadCrumb } from "../component/BreadCrumb"
+import { SmoothScrolling } from "../component/SmoothScrolling"
 
 export const Project = (props) => {
     const ctx = useContext(PortfolioContext)
@@ -22,7 +23,7 @@ export const Project = (props) => {
                 <div className="banner">
                     <div className="py-2">
                         <h2 className="text-5xl font-semibold text-center py-2">Single Project</h2>
-                        <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider">{name}</p>
+                        <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider">{title}</p>
                     </div>
                     <Meta title={"Project"}/>
                     <BreadCrumb title="Project"/>
@@ -43,33 +44,40 @@ export const Project = (props) => {
                         <img src={img} alt="project" className="max-w-full h-auto rounded-t-md"/>
                     </div>
                     <div className="mb-6">
-                        <h4 className="text-lg font-semibold py-2">Summary</h4>
+                        <h4 className="text-lg font-semibold py-2"><SmoothScrolling>Summary</SmoothScrolling></h4>
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
-                            Discover how I give projects a fresh visual start. 
-                            With over 50 team members, 5000+ users and 27M, 
-                            it was time to replace the outdated look with a design that matched clients and users ambitions.
+                            <SmoothScrolling>
+                                Discover how I give projects a fresh visual start. 
+                                With over 50 team members, 5000+ users and 27M, 
+                                it was time to replace the outdated look with a design that matched clients and users ambitions.
+                            </SmoothScrolling>
                         </p>
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
-                            {summary}
+                            <SmoothScrolling>
+                                {summary}
+                            </SmoothScrolling>
                         </p>
                     </div>
                     <div>
-                        <h4 className="text-lg font-semibold py-2">What I've done</h4>
-                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">1. Strategic Discovery</p>
-                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">2. Web application redesign & optimization</p>
-                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">3. Mobile application & optimization</p>
-                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">4. Landing page redesign & optimization</p>
-                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">5. Component-based UI-kit</p>
+                        <SmoothScrolling>
+                            <h4 className="text-lg font-semibold py-2">What I've done</h4>
+                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">1. Strategic Discovery</p>
+                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">2. Web application redesign & optimization</p>
+                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">3. Mobile application & optimization</p>
+                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">4. Landing page redesign & optimization</p>
+                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">5. Component-based UI-kit</p>
+                        </SmoothScrolling>
                     </div>
 
-                    <h4 className="text-lg font-semibold py-2">Tech Stacks</h4>
-                    <ol>
-                        {
-                            techStack.map((stack, i) => <li className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">{i+1}. { stack}</li>)
-                        }  
-                    </ol>
-                    
-                    <div>
+                    <h4 className="text-lg font-semibold py-2"><SmoothScrolling>Tech Stacks</SmoothScrolling> </h4>
+                    <SmoothScrolling>
+                        <ol>
+                            {
+                                techStack.map((stack, i) => <li className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">{i+1}. { stack}</li>)
+                            }  
+                        </ol>
+                    </SmoothScrolling>
+                    <div className="mt-32">
                         <ContactForm/>
                     </div>
                     
