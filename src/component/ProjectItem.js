@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom"
 import { Banner } from "./Banner"
+import { SmoothScrolling } from "./SmoothScrolling"
 export const ProjectItem = (props) => {
     const { id, name, title, address, img} = props.projects
     return(
         <div className="flex justify-center md:p-4 px-0">
+            <SmoothScrolling>
+
+            
             <div className="project-bg rounded-sm mb-3 p-8 ">
                 <Link to={`/projects/project/${id}`}>
                     <img 
@@ -21,6 +25,7 @@ export const ProjectItem = (props) => {
                 </button>
                      
             </div>
+            </SmoothScrolling>
         </div>
     )
 }
