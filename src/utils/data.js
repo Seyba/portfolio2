@@ -32,8 +32,8 @@ export const projectData = [
         title:'Star Wars Starships App',
         address: 'https://ephemeral-dodol-c5b7d0.netlify.app/',
         img: '/images/starwars.png',
-        summary: "",
-        techStack: []
+        summary: "Starships just fetch data from external API and displays them.",
+        techStack: ["Javascript", "NodeJS", "ReactJS", "Bootstrap", "Component-based UI-kit"]
     },
     {
         id: 'l8db',
