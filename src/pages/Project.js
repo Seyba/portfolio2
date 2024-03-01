@@ -48,8 +48,8 @@ export const Project = (props) => {
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
                             <SmoothScrolling>
                                 Discover how I give projects a fresh visual start. 
-                                With over 50 team members, 5000+ users and 27M, 
-                                it was time to replace the outdated look with a design that matched clients and users ambitions.
+                                With many years hands-on training projects, update or test
+                                applications and websites to an intuitive user experience look with a design that match clients and users ambitions.
                             </SmoothScrolling>
                         </p>
                         <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
@@ -57,16 +57,6 @@ export const Project = (props) => {
                                 {summary}
                             </SmoothScrolling>
                         </p>
-                    </div>
-                    <div>
-                        <SmoothScrolling>
-                            <h4 className="text-lg font-semibold py-2">What I've done</h4>
-                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">1. Strategic Discovery</p>
-                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">2. Web application redesign & optimization</p>
-                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">3. Mobile application & optimization</p>
-                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">4. Landing page redesign & optimization</p>
-                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">5. Component-based UI-kit</p>
-                        </SmoothScrolling>
                     </div>
 
                     <h4 className="text-lg font-semibold py-2"><SmoothScrolling>Tech Stacks</SmoothScrolling> </h4>

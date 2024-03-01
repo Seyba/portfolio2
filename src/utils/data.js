@@ -14,8 +14,8 @@ export const projectData = [
         title:'Classic Javascript Tic Tac Toe Game',
         address: 'https://seyba.github.io/TicTacToe/',
         img: '/images/tictactoe.png',
-        summary: '',
-        techStack:[]
+        summary: "Classic Javascript Tic Tac Toe is a two player game, each player has a turn, the more points a player earn through the crossed board or row is winner. Javascript Object Oriented Programming used to store users points. A player is only allowed to click once at a time on his or her turn in a cell.Once a cell is clicked it cannot be clicked again. A wide screen shows scores when a winning happens. Each player's score is displayed at the end of the game. No score is displayed when there's a tie. players get unlimited time to play by clicking the play button.",
+        techStack:["Javascript", "HTML", "CSS", "Component-based UI-kit", "Landing page design"]
     },
     {
         id: 'k7tb',
@@ -23,8 +23,8 @@ export const projectData = [
         title:'Simple Crypto Currencies App',
         address: 'https://comfy-smakager-0be15f.netlify.app/',
         img: '/images/crypto.png',
-        summary: "",
-        techStack:[]
+        summary: "Simple Crypto App generates crypto prices and value from crypto currencies API.",
+        techStack:["Javascript", "NodeJS", "ReactJS", "Bootstrap", "Component-based UI-kit"]
     },
     {
         id: 'n3sv',
