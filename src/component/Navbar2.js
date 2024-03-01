@@ -39,7 +39,7 @@ export const Navbar2 = (props) => {
                             </div>
                             <div>
                                 <div className="flex justify-center rounded-full h-6 w-6 bg-slate-50 ">
-                                    <h5 className="text-base font-semibold text-center text-slate-950">3</h5>
+                                    <h5 className="text-base font-semibold text-center text-slate-950">0</h5>
                                 </div>
                             </div>
                         </div>
