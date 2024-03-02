@@ -1,10 +1,36 @@
-import React from 'react'
+import React, {useRef } from 'react'
 import { SmoothScrolling } from './SmoothScrolling'
+import { useNavigate } from 'react-router-dom'
+//import emailJs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
+
+const api_key = process.env.REACT_APP_API_KEY
+const apiPublicKey = process.env.REACT_APP_PUBLIC_KEY
+const templateId = process.env.REACT_APP_TEMPLATE_ID
+const serviceId = process.env.REACT_APP_SERVICE_ID 
+
+console.log('api public key', serviceId)
 export const ContactForm = () => {
+  const form = useRef()
+  const navigate = useNavigate()
+
+
+  const sendEmail = e => {
+    e.preventDefault()
+    emailjs.sendForm(serviceId, templateId, form.current, {publicKey: apiPublicKey})
+      .then((result) => { 
+        console.log('success!!!', result.text)
+        navigate('/')
+      }, (error) => {
+        console.log('FAILED...', error.text)
+      })
+      
+  }
+
   return (
     <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-      <form>
+      <form ref={form} onSubmit={sendEmail}>
         <SmoothScrolling>
           <div className="px-3">
             <div>
