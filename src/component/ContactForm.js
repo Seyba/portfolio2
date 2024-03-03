@@ -1,25 +1,20 @@
-import React, {useRef, useState } from 'react'
+import React, {useRef } from 'react'
 import { SmoothScrolling } from './SmoothScrolling'
 import { useNavigate } from 'react-router-dom'
-//import emailJs from 'emailjs-com'
 import emailjs from '@emailjs/browser'
 
 
-const api_key = process.env.REACT_APP_API_KEY
 const apiPublicKey = process.env.REACT_APP_PUBLIC_KEY
 const templateId = process.env.REACT_APP_TEMPLATE_ID
 const serviceId = process.env.REACT_APP_SERVICE_ID 
 
-console.log('api public key', serviceId)
-
-export const ContactForm = () => {
+export const ContactForm = (props) => {
   const form = useRef()
   const navigate = useNavigate()
 
-
   const sendEmail = e => {
     e.preventDefault()
-    emailjs.sendForm('serviceId', templateId, form.current, {publicKey: apiPublicKey})
+    emailjs.sendForm(serviceId, templateId, form.current, {publicKey: apiPublicKey})
       .then((result) => { 
         console.log('success!!!', result.text)
         navigate('/')
@@ -27,21 +22,21 @@ export const ContactForm = () => {
         navigate('/')
         console.log('FAILED...', error.text)
       })
-      
+      e.target.reset()
   }
 
   return (
-    <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+    <div className="sm:mx-auto sm:w-full sm:max-w-sm mt-6">
       <form ref={form} onSubmit={sendEmail}>
         <SmoothScrolling>
-          <div className="px-3">
-            <div>
+          <div className="px-3 ">
+            <div className="mt-20">
               <h3 className="text-2xl font-light tracking-wider py-4 leading-6 text-center">Contact Me</h3>
             </div>
-            <div>
+            <div className="mt-6">
               <h4 className="text-4xl font-bold text-center tracking-wider">Let's start your project</h4>
             </div>
-            <label htmlFor="name" className="block text-sm font-semibold mt-2 uppercase leading-6 text-gray-100">
+            <label htmlFor="name" className="block text-sm font-semibold mt-6 uppercase leading-6 text-gray-100">
               Name 
             </label>
             <div className="mt-2">
