@@ -2,6 +2,7 @@ import React from 'react'
 import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
 import { ContactForm } from '../component/ContactForm'
+import { ContactPartial } from '../component/ContactPartial'
 
 export const Contact = () => {
   return (
@@ -24,7 +25,18 @@ export const Contact = () => {
           </div>
         </div>       
       </div>
+      <div>
+        <div>
+          <img src="/images/nyc_map.png" alt="map"/>
+        </div>
+        <p>
+          I'd love to hear from you! Whether you have a project in mind, a question or just want to  say hello, feel free to drop a message.
+        </p>
+      </div>
       <ContactForm/>
+      <div>
+        <ContactPartial/>
+      </div>
     </>
   )
 }
