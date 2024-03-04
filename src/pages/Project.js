@@ -45,36 +45,33 @@ export const Project = (props) => {
                     </div>
                     <div className="mb-6">
                         <h4 className="text-lg font-semibold py-2"><SmoothScrolling>Summary</SmoothScrolling></h4>
-                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
-                            <SmoothScrolling>
+                        <SmoothScrolling>    
+                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
+                                
                                 Discover how I give projects a fresh visual start. 
                                 With many years hands-on training projects, update or test
                                 applications and websites to an intuitive user experience look with a design that match clients and users ambitions.
-                            </SmoothScrolling>
-                        </p>
-                        <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
-                            <SmoothScrolling>
+                                
+                            </p>
+                        </SmoothScrolling>
+                        <SmoothScrolling>
+                            <p className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">
                                 {summary}
-                            </SmoothScrolling>
-                        </p>
+                            </p>
+                        </SmoothScrolling>
                     </div>
 
                     <h4 className="text-lg font-semibold py-2"><SmoothScrolling>Tech Stacks</SmoothScrolling> </h4>
                     <SmoothScrolling>
                         <ol>
                             {
-                                techStack.map((stack, i) => <li className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">{i+1}. { stack}</li>)
+                                techStack.map((stack, i) => <li key={i}className="text-base py-2 font-light text-gray-300 tracking-wide leading-6">{i+1}. { stack}</li>)
                             }  
                         </ol>
                     </SmoothScrolling>
                     <div className="mt-32">
                         <ContactForm/>
                     </div>
-                    
-                    <h3 className="text-white font-semibold"></h3>
-                    
-                    <h4 className="text-red-600"></h4> 
-                    <h4 className="text-red-600"></h4>                   
                 </div>
             </section>
             <div>
