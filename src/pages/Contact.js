@@ -26,12 +26,16 @@ export const Contact = () => {
         </div>       
       </div>
       <div>
-        <div>
+        <div className="">
           <img src="/images/nyc_map.png" alt="map"/>
         </div>
-        <p>
-          I'd love to hear from you! Whether you have a project in mind, a question or just want to  say hello, feel free to drop a message.
-        </p>
+        <div className="flex justify-center px-4  md:px-40 py-20">
+          <div className="">
+            <p className="sm:text-3xl text-xl leading-tight uppercase tracking-wide font-thin text-center ">
+              I'd love to hear from you! Whether you have a project in mind, a question or just want to  say hello, feel free to drop a message.
+            </p>
+          </div>
+        </div>
       </div>
       <ContactForm/>
       <div>
