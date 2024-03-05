@@ -3,6 +3,7 @@ import Meta from '../component/Meta'
 import { BreadCrumb } from '../component/BreadCrumb'
 import { ContactForm } from '../component/ContactForm'
 import { ContactPartial } from '../component/ContactPartial'
+import { SmoothScrolling } from '../component/SmoothScrolling'
 
 export const Contact = () => {
   return (
@@ -31,9 +32,11 @@ export const Contact = () => {
         </div>
         <div className="flex justify-center px-4  md:px-40 py-20">
           <div className="">
-            <p className="sm:text-3xl text-xl leading-tight uppercase tracking-wide font-thin text-center ">
-              I'd love to hear from you! Whether you have a project in mind, a question or just want to  say hello, feel free to drop a message.
-            </p>
+            <SmoothScrolling>
+              <p className="sm:text-3xl text-xl leading-tight uppercase tracking-wide font-thin text-center ">
+                I'd love to hear from you! Whether you have a project in mind, a question or just want to  say hello, feel free to drop a message.
+              </p>
+            </SmoothScrolling>
           </div>
         </div>
       </div>
