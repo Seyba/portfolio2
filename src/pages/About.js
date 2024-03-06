@@ -11,8 +11,8 @@ export const About = () => {
       <div className="banner-wrapper">
         <div className="banner">
           <div className="py-2">
-            <h2 className="text-5xl font-semibold text-center py-2">About Seyba</h2>
-            <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider">A creative web developer like no other.</p>
+            <h2 className="text-5xl font-semibold text-center py-2 animate-fade-down animate-once animate-duration-800 animate-ease-in-out">About Seyba</h2>
+            <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider animate-fade-down animate-once animate-duration-800 animate-delay-[500ms] animate-ease-in-out">A creative web developer like no other.</p>
           </div>
           <Meta title={"About"}/>
           <BreadCrumb title="About"/>
@@ -33,7 +33,7 @@ export const About = () => {
         />
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-xl font-bold tracking-tight text-white sm:text-2xl">I can be part of a team of great developers, problem solvers, and passionate collaborators.</h2>
+            <h2 className="text-xl font-bold tracking-tight text-white sm:text-2xl animate-fade-left animate-once animate-duration-800 animate-ease-in-out">I can be part of a team of great developers, problem solvers, and passionate collaborators.</h2>
           </div>
         </div>
       </section>
