@@ -5,7 +5,7 @@ export const BreadCrumb = (props) => {
     const { title } = props
   return (
     <div className="flex justify-around">
-        <div className="flex breadcrumb">
+        <div className="flex breadcrumb animate-fade-up animate-once animate-duration-1000 animate-delay-[1000ms] animate-ease-in-out">
             <div className="flex items-center text-center">
                 <Link className="font-semibold" to="/">
                     Home 
