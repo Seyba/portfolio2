@@ -15,7 +15,9 @@ export const Footer = () => {
                     </div>
                     <div>
                         <SmoothScrolling>
-                            <p className="text-lg leading-8 py-4">I am an award UI/UX designer, web developer and product manager based in New York, USA.</p>
+                            <p className="text-lg leading-8 py-4">                                
+                                I am a New York based dynamic web developer turning visionary concepts into immersive digital experiences.
+                            </p>
                         </SmoothScrolling>
                     </div>
                     <div className="footer__links py-4">
