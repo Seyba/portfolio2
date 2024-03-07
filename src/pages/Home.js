@@ -56,10 +56,10 @@ export const Home = () => {
           </div>
           <div >
             <div className="flex justify-center my-4">
-              <Link className="sBtn">Enquire Now</Link>
+              <Link to="/contact" className="sBtn">Enquire Now</Link>
             </div>
             <div className="flex justify-center">
-              <Link className="sBtn">View My Projects</Link>
+              <Link to="/projects" className="sBtn">View My Projects</Link>
             </div>
           </div>
           <div className="flex justify-center my-4">
