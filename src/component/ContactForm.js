@@ -31,7 +31,7 @@ export const ContactForm = (props) => {
         <SmoothScrolling>
           <div className="px-3 ">
             <div className="mt-20">
-              <h3 className="text-2xl font-light tracking-wider py-4 leading-6 text-center">Contact Me</h3>
+              <h3 className="text-2xl font-light tracking-wider py-4 leading-6 text-center">Talk To Me</h3>
             </div>
             <div className="mt-6">
               <h4 className="text-4xl font-bold text-center tracking-wider">Let's start your project</h4>
