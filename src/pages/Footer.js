@@ -16,7 +16,7 @@ export const Footer = () => {
                     <div>
                         <SmoothScrolling>
                             <p className="text-lg leading-8 py-4">                                
-                                I am a New York based dynamic web developer turning visionary concepts into immersive digital experiences.
+                                I am a New York City based dynamic web developer turning visionary concepts into immersive digital experiences.
                             </p>
                         </SmoothScrolling>
                     </div>
