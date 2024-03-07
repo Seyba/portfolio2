@@ -49,7 +49,7 @@ export const Home = () => {
         </div>
         <div className="mx-7 md:hidden">
           <div>
-            <h1 className="text-5xl font-bold text-center py-4 tracking-wider">We're a creative digital studio.</h1>
+            <h1 className="text-4xl font-bold text-center py-4 tracking-wider">Transforming Ideas into Reality</h1>
           </div>
           <div>
             <h2 className="text-gray-300 leading-7 text-2xl font-light py-4 text-center tracking-wider">I love user-focused design, thoughtfully crafted applications</h2>

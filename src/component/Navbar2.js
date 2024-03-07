@@ -28,7 +28,9 @@ export const Navbar2 = (props) => {
                         <div className={`line-two ${menuOpen ? 'two-open': ''}`}></div>
                     </div>
                     <div>
-                        <h3 className="heading text-xl text-slate-50">SEYBA</h3>
+                        <Link to="/" className="heading text-xl text-slate-50">
+                            SEYBA
+                        </Link>
                     </div>
                     <div>
                         <div className="flex justify-center items-center" onClick={toggleCart}>
