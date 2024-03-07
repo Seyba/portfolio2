@@ -11,8 +11,8 @@ export const Contact = () => {
       <div className="banner-wrapper">
         <div className="banner">
           <div className="py-2">
-            <h2 className="text-5xl font-semibold text-center py-2">Contact Me</h2>
-            <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider">Let's work together.</p>
+            <h2 className="text-5xl font-semibold text-center py-2 animate-fade-down animate-once animate-duration-800 animate-ease-in-out">Contact Me</h2>
+            <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider animate-fade-down animate-once animate-duration-800 animate-delay-[500ms] animate-ease-in-out">Let's work together.</p>
           </div>
           <Meta title={"Contact"}/>
           <BreadCrumb title="Contact"/>

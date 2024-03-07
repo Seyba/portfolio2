@@ -52,7 +52,7 @@ export const About = () => {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <SmoothScrolling>
                 <p className="text-xl leading-9 tracking-wide py-6 text-gray-500">
-                  I am a New York City based Full Stack Web Developer with a focus on web design, illustration, a visual development.
+                  I am a New York City based Full Stack Web Developer with a focus on web design, illustration, and visual development.
                   I am passionate about transforming visionary concepts into immersive digital experiences. With expertise in both front and back-end technologies,
                   my mission is to craft solutions that exceed expectations. 
                   I have professional experience in customer service, in teaching and hospitality.
