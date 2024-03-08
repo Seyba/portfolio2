@@ -232,7 +232,7 @@ export const Home = () => {
           </SmoothScrolling>
         </div>
         <div className="service-grid">
-          <div className="icon-box">
+          <div className="icon-box animate-fade-down animate-once animate-duration-500 animate-ease-in-out">
             <div className="base-image">
               <img src="/images/service-bg.png" alt="" className="shape-image"/> 
               <div className="service-circle bg-zinc-700">
@@ -258,7 +258,7 @@ export const Home = () => {
               </SmoothScrolling>
             </div>
           </div>
-          <div className="icon-box">
+          <div className="icon-box animate-fade-down animate-once animate-duration-500 animate-ease-in-out animate-delay-[500ms]">
             <div className="base-image">
               <img src="/images/service-bg.png" alt="" className="shape-image"/> 
               <div className="service-circle bg-zinc-700">
@@ -282,7 +282,7 @@ export const Home = () => {
               </SmoothScrolling>
             </div>
           </div>
-          <div className="icon-box">
+          <div className="icon-box animate-fade-down animate-once animate-duration-500 animate-ease-in-out animate-delay-[1000ms]">
             <div className="base-image">
               <img src="/images/service-bg.png" alt="" className="shape-image"/> 
               <div className="service-circle bg-zinc-700">
