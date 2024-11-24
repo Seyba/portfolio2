@@ -52,6 +52,15 @@ export const projectData = [
         img: '/images/devShop.png',
         summary: "DevShop is a Full-stack Mern ecommerce site. It is bootstrap styled and has a separate admin front-end page. The back-end is running on express and nodejs server. User can browse products, add or remove to his/her cart and proceed to the checkout, however the stripe transaction is not hooked to the site yet. Version 2 will cover that and the responsiveness.",
         techStack: ['ReactJS', 'NodeJS', 'Landing page design', 'Antdesign', 'Marquee','MondoDB', 'Redux', 'Component based UI-kit']
+    },
+    {
+        id: 'l39ds',
+        name: 'Redux Contact',
+        title:'Redux Contact App',
+        address: 'https://redux-contact-app.onrender.com/',
+        img: '/images/contactApp.png',
+        summary: "Redux Contact App is a regular simple full crud application that takes in user data and store them in redux where the user can manipulate them.",
+        techStack: ['ReactJS', 'NodeJS', 'figma mockup', 'Redux', 'Component based UI-kit']
     }
 
 ]

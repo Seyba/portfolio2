@@ -31,6 +31,7 @@ export const Navbar2 = (props) => {
                         <Link to="/" className="heading text-xl text-slate-50">
                             SEYBA
                         </Link>
+                        
                     </div>
                     <div>
                         <div className="flex justify-center items-center" onClick={toggleCart}>
