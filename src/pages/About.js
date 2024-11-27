@@ -60,7 +60,7 @@ export const About = () => {
                 </p>
               </SmoothScrolling>
               <SmoothScrolling>
-                <h4 className="text-xl font-semibold tracking-tight leading-9">Mahamadou Tirera aka Seyba — Dynamic Developer</h4>
+                <h4 className="text-xl font-semibold tracking-tight leading-9">Mahamadou Tirera — Dynamic Developer</h4>
               </SmoothScrolling>
             </div>
           </div>
