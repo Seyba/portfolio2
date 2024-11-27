@@ -54,6 +54,7 @@ export const Home = () => {
           <div>
             <h2 className="text-gray-300 leading-7 text-2xl font-light py-4 text-center tracking-wider">I love user-focused design, thoughtfully crafted applications</h2>
           </div>
+          
           <div >
             <div className="flex justify-center my-4">
               <Link to="/contact" className="sBtn">Enquire Now</Link>
@@ -62,6 +63,9 @@ export const Home = () => {
               <Link to="/projects" className="sBtn">View My Projects</Link>
             </div>
           </div>
+          
+          
+          
           <div className="flex justify-center my-4">
             <svg width="30px" height="90px" viewBox="0 0 247 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" style={{fillRule:"evenodd" ,clipRule:"evenodd", strokeLinecap:"round" ,strokeLinejoin:'round', strokeMiterlimit:'1.5'}}>
               <path  className="wheel" d="M123.359,79.775l0,72.843" style={{fill:"none" ,stroke:"#fff" ,strokeWidth:"15px"}} />
@@ -69,6 +73,7 @@ export const Home = () => {
             </svg>
           </div>
         </div>
+
         <div className="hidden md:block">
           <div className="flex justify-center">
             <div className="content-wrap">
@@ -87,13 +92,14 @@ export const Home = () => {
             <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted applications</h2>
           </div>
         </div>
+        
         <div className="hidden md:flex justify-center py-6 mt-6 ">
           <div className="flex ">
             <div className="mr-2">
-              <Link to="/" className="sBtn">Enquire Now</Link>
+              <Link to="/contact" className="sBtn">Enquire Now</Link>
             </div>
             <div className="ml-2">
-              <Link to="/" className="sBtn">View My Projects</Link>
+              <Link to="/projects" className="sBtn">View My Projects</Link>
             </div>
           </div>
         </div>
@@ -108,7 +114,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
+      
       <div className="mt-16">
         <div className="flex justify-center">
           <div className=" grid md:grid-cols-4 grid-cols-2 place-items-center gap-2">
@@ -369,7 +375,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
       <div className="mt-16 main-wrapper">
         <div className="md:grid grid-cols-2 place-items-center gap-2">
           <SmoothScrolling>
