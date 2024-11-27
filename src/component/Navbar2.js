@@ -29,7 +29,7 @@ export const Navbar2 = (props) => {
                     </div>
                     <div>
                         <Link to="/" className="heading text-xl text-slate-50">
-                            SEYBA
+                            M. TIRERA
                         </Link>
                         
                     </div>
