@@ -10,7 +10,7 @@ export const Footer = () => {
                 <div className="lg:mx-20">
                     <div className="py-4">
                         <SmoothScrolling>
-                            <h4 className="font-semibold text-3xl">SEYBA</h4>
+                            <h4 className="font-semibold text-xl">Mahamadou Tirera</h4>
                         </SmoothScrolling>
                     </div>
                     <div>
@@ -91,7 +91,7 @@ export const Footer = () => {
             </div>
             <div className="lg:mx-20 footer__author-link py-4">
                 <p>
-                    &copy; {new Date().getFullYear()}; by <Link to="https://github.com/Seyba">SEYBA</Link>
+                    &copy; {new Date().getFullYear()}; by <Link to="https://github.com/Seyba">Mahamadou Tirera</Link>
                 </p>
             </div>
         </div>
