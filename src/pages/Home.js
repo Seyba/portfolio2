@@ -10,8 +10,8 @@ export const Home = () => {
   const [rightText, setRightText] = useState('')
   const [msgIdx, setMsgIdx] = useState(0)
 
-  const text = ['innovative', 'talented','powerful','creative']
-  const msg = ['intelligent', 'skilled', 'dependable','collaborative']
+  const text = ['Innovative', 'Talented','Powerful','Creative']
+  const msg = ['Intelligent', 'Skilled', 'Dependable','Collaborative']
 
 
   useEffect(() => {
@@ -77,16 +77,16 @@ export const Home = () => {
         <div className="hidden md:block">
           <div className="flex justify-center">
             <div className="content-wrap">
-              <h1 className="display-1 for-rotator">We're a</h1>
+              <h1 className="display-1 for-rotator"></h1>
               <div className="words-wrap ">
                 {
-                  (msgIdx === 4) ? <h1 className="display-1 ">powerful</h1> : <h1 className="display-1">{msg[msgIdx]}</h1>
+                  (msgIdx === 4) ? <h1 className="display-1 ">Powerful</h1> : <h1 className="display-1">{msg[msgIdx]}</h1>
                 }
               </div>
             </div>
           </div>
           <div className="flex justify-center">
-            <h1 className="display-1 for-rotator">Digital Studio.</h1>
+            <h1 className="display-1 for-rotator">Full Stack Web Developer.</h1>
           </div>
           <div className="mt-6">
             <h2 className="flex justify-center text-gray-300 text-2xl font-light tracking-wider">I love user-focused design, thoughtfully crafted applications</h2>

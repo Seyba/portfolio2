@@ -11,7 +11,7 @@ export const About = () => {
       <div className="banner-wrapper">
         <div className="banner">
           <div className="py-2">
-            <h2 className="text-5xl font-semibold text-center py-2 animate-fade-down animate-once animate-duration-800 animate-ease-in-out">About Seyba</h2>
+            <h2 className="text-5xl font-semibold text-center py-2 animate-fade-down animate-once animate-duration-800 animate-ease-in-out">About Tirera</h2>
             <p className="text-gray-300 text-center font-light text-3xl py-2 leading-8 tracking-wider animate-fade-down animate-once animate-duration-800 animate-delay-[500ms] animate-ease-in-out">A creative web developer like no other.</p>
           </div>
           <Meta title={"About"}/>
