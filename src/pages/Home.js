@@ -78,9 +78,9 @@ export const Home = () => {
           <div className="flex justify-center">
             <div className="content-wrap">
               <h1 className="display-1 for-rotator"></h1>
-              <div className="words-wrap ">
+              <div className="words-wrap">
                 {
-                  (msgIdx === 4) ? <h1 className="display-1 ">Powerful</h1> : <h1 className="display-1">{msg[msgIdx]}</h1>
+                  (msgIdx === 4) ? <h1 className="display-1 ">Powerful</h1> : <h1 className="display-1 animate-jump-in animate-once">{msg[msgIdx]}</h1>
                 }
               </div>
             </div>
