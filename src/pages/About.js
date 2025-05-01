@@ -4,6 +4,7 @@ import { BreadCrumb } from '../component/BreadCrumb'
 import { SmoothScrolling } from '../component/SmoothScrolling'
 import Marquee from 'react-fast-marquee'
 import SeyModal from '../component/SeyModal'
+import { Helmet } from 'react-helmet'
 
 export const About = () => {
   return (
@@ -26,6 +27,12 @@ export const About = () => {
           </div>
         </div>    
       </div>
+      <Helmet>
+        <meta 
+          name="Mahamadou Tirera"
+          content="New York City Based Full Stack Web Developer"
+        />
+      </Helmet>
       <section className="relative isolate overflow-hidden bg-gray-900 py-24 md:py-64 sm:py-32">
         <img src="/images/team.jpg" 
           alt="banner"
