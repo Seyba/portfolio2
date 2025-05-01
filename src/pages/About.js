@@ -7,6 +7,13 @@ import SeyModal from '../component/SeyModal'
 import { Helmet } from 'react-helmet'
 
 export const About = () => {
+
+  const ogData = {
+    title: 'Mahamadou Tirera',
+    description: 'New York City Based Full Stack Web Developer',
+    url: 'https://www.mtireracom',
+    siteName: 'Mahamadou Tirera',
+  }
   return (
     <>
       <div className="banner-wrapper">
@@ -28,6 +35,10 @@ export const About = () => {
         </div>    
       </div>
       <Helmet>
+        <meta property="og:title" content={ogData.title} />
+        <meta property="og:description" content={ogData.description} />
+        <meta property="og:url" content={ogData.url} />
+        <meta property="og:site_name" content={ogData.siteName} />
         <meta 
           name="Mahamadou Tirera"
           content="New York City Based Full Stack Web Developer"
