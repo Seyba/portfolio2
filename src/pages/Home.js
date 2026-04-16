@@ -379,7 +379,7 @@ export const Home = () => {
         <div className="md:grid grid-cols-2 place-items-center gap-2">
           <SmoothScrolling>
             <div className="">
-              <img src="/images/port.jpg" width="600" className="profile-pic " alt="profile"/>
+              <img src="/images/profile_pic_26.PNG" wdth="600" className="profile-pic " alt="profile"/>
             </div>
           </SmoothScrolling>
           
