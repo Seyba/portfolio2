@@ -487,11 +487,34 @@ export const Home = () => {
                   </div>
                 </SmoothScrolling>
               </div>
-              <div>
+              <div className="mb-4">
                 <SmoothScrolling>
                   <div className="skills-text">
                     <div>Firebase</div>
                     <div>70%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
+              </div>
+
+              <div className="mb-4">
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>Java</div>
+                    <div>50%</div>
+                  </div>
+                  <div className="skills-wrapper">
+                    <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
+                  </div>
+                </SmoothScrolling>
+              </div>
+              <div>
+                <SmoothScrolling>
+                  <div className="skills-text">
+                    <div>Spring Boot</div>
+                    <div>50%</div>
                   </div>
                   <div className="skills-wrapper">
                     <div style={{width: '70%', height:'2px'}} className="skills-overlay"></div>
